@@ -2,6 +2,7 @@
 title: Visual Studio Code Tricks
 site: tricks
 type: tricks
+canonical: https://any.digital/tricks/vscode/
 ---
 | Command | Action |
 | --- | --- |
@@ -15,9 +16,11 @@ type: tricks
 | Ctrl + Opt + R | loop through recent commands |
 | `code .` | open file/folder in VS Code |
 
+---
+
 Hide symlinks:
 ```json
-# project's .vscode/settings.json:
+# .vscode/settings.json:
 {
   "search.followSymlinks": false,
   "files.exclude": {
@@ -25,3 +28,4 @@ Hide symlinks:
   }
 }
 ```
+<sup>✅ Verified by TFG</sup>
