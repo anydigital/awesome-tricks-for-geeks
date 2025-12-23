@@ -9,7 +9,7 @@ type: tricks
 
 To restore a single file to its state from N commits ago, use the git restore command (available in Git 2.23+):
 ```sh
-git restore --source=HEAD~N path/to/your/file.ext
+git restore --source=HEAD~N PATH/TO/YOUR/FILE.ext
 ```
 
 ---
