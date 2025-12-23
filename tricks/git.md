@@ -11,6 +11,7 @@ To restore a single file to its state from N commits ago, use the git restore co
 ```sh
 git restore --source=HEAD~N PATH/TO/YOUR/FILE.ext
 ```
+<sup>✅ Verified by TFG</sup>
 
 ---
 
