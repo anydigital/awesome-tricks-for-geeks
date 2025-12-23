@@ -19,3 +19,7 @@ But you can actually do this trick:
 ...
 {% endfor %}
 ```
+
+---
+
+Q&A: https://www.reddit.com/r/eleventy/ (yes, they help with Nunjucks!)
