@@ -2,6 +2,7 @@
 title: Git  Tricks
 site: tricks
 type: tricks
+canonical: https://any.digital/tricks/git/
 ---
 [/tricks/git-commit-email-privacy/](/tricks/git-commit-email-privacy/)
 
