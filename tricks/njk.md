@@ -19,6 +19,7 @@ But you can actually do this trick:
 ...
 {% endfor %}
 ```
+<sup>✅ Verified by TFG</sup>
 
 ---
 
