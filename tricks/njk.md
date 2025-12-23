@@ -2,6 +2,7 @@
 title: Nunjucks Tricks
 site: tricks
 type: tricks
+canonical: https://any.digital/tricks/njk/
 ---
 
 ## Sort array by attribute
