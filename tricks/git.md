@@ -1,5 +1,5 @@
 ---
-title: Git Tricks
+title: Git  Tricks
 site: tricks
 type: tricks
 ---
