@@ -10,6 +10,8 @@ Git Commit Email Privacy in 5 Minutes:
 
 [/tricks/git-commit-email-privacy/](/tricks/git-commit-email-privacy/)
 
+<sup>✅ Recommended by TFG</sup>
+
 ---
 
 Search the whole git history:
