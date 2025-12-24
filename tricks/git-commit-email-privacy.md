@@ -1,5 +1,5 @@
 ---
-title: Git Commit Email Privacy in 5 Minutes
+title: Git Commit Email Privacy in 5 Minutes 🆕
 site: tricks
 type: tricks
 ---
