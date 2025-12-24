@@ -26,3 +26,8 @@ brew install gh
 gh repo license view CC-BY-SA-4.0 > LICENSE
 ```
 <sup>✅ Verified by TFG</sup>
+
+---
+
+Cool stuff:
+- https://github.com/anuraghazra/github-readme-stats
