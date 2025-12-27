@@ -10,8 +10,9 @@ canonical: https://any.digital/tricks/zed/
 | Cmd + K | toggle AI Inline Assist |
 | Cmd + Shift + I | toggle AI Agent Panel |
 | Cmd + Shift + R | spawn project task (ie: npm run dev) |
-| Shift + Esc | toggle fullscreen |
+| Opt + Cmd + Y | hide all docks |
 | Ctrl + ` | toggle Terminal |
+| Shift + Esc | toggle Zoom mode |
 
 ---
 
