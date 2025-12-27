@@ -7,7 +7,7 @@ canonical: https://any.digital/tricks/ide/
 
 Best modern universal IDEs by market share and AI support:
 
-| Universal IDE | Share | Tech Stack Specialization | AI Philosophy |
+| IDE | 2025 Share | Specialization | AI Philosophy |
 |---|---|---|---|
 | VS Code | ~75% | Universal / Cloud. Standard for Web, Go, TS. | AI-Enhanced: Plugin-based (Copilot). |
 | IntelliJ IDEA | ~27% | Enterprise Polyglot. Java, Kotlin, Scala. | AI-Enhanced: Deep static analysis integration. |
