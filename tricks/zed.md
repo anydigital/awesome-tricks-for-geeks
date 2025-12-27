@@ -8,6 +8,7 @@ canonical: https://any.digital/tricks/zed/
 | Command | Action |
 | --- | --- |
 | Ctrl + ` | toggle Terminal |
+| Cmd + K | toggle AI Inline Assist |
 | Cmd + Shift + I | toggle AI Agent Panel |
 
 ---
