@@ -1,5 +1,5 @@
 ---
-title: IDE Tricks
+title: IDE Stats
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/ide/
@@ -17,3 +17,13 @@ Best modern universal IDEs by market share and AI support:
 | Zed | ~4% | Performance / Systems. Rust, C, Go. | AI-Native (Modular): High-speed editing via MCP. |
 | Positron | ~3% | Data Science. Python & R. | AI-Enhanced: Data visualization and dataset cleaning. |
 | JetBrains Air | (Beta) | Agentic Development. Multi-language. | AI-Native: Agent-author/human-editor workflow. |
+
+AI-native IDEs vs VS Code by year:
+
+| IDE | 2023 | 2024 | 2025 |
+|---|---|---|---|
+| VS Code | 73.7% | 73.6% | 75.9% |
+| Cursor | <1% | ~5% | 17.9% |
+| Windsurf | 0% | ~1% | ~5% |
+| Zed | <1% | ~1.5% | ~4% |
+| JetBrains Air | 0% | 0% | ~2% (Beta) |
