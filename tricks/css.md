@@ -1,3 +1,12 @@
+---
+title: CSS Stats & Tricks
+site: tricks
+type: tricks
+canonical: https://any.digital/tricks/css/
+---
+
+CSS Frameworks by developer usage:
+
 | Framework / Library | 2019 | 2021 | 2023 | 2025 | Trend Summary |
 |---|---|---|---|---|---|
 | Tailwind CSS | 6\% | 39\% | 51\% | 66\% | 🚀 Hyper-Growth: Current industry standard for new projects. |
