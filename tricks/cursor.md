@@ -5,7 +5,13 @@ type: tricks
 canonical: https://any.digital/tricks/cursor/
 ---
 
-### View: Toggle Zen Mode (inspired by Zed)
+| Command | Action |
+| --- | --- |
+| ***Terminal:*** |  |
+| Ctrl + \` | toggle terminal |
+| Ctrl + Opt + R | loop through recent commands |
+
+#### View: Toggle Zen Mode (inspired by Zed)
 
 ```json
 {
@@ -15,7 +21,7 @@ canonical: https://any.digital/tricks/cursor/
 }
 ```
 
-### Markdown: Open Preview to the Side
+#### Markdown: Open Preview to the Side
 
 ```json
 {
