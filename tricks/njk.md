@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/njk/
 ---
 
-## Sort array by attribute
+#### Sort array by attribute
 
 Per official documentation:
 
@@ -22,6 +22,8 @@ But you can actually do this trick:
 <sup>✅ Verified by TFG</sup>
 
 ---
+
+#### .njk syntax highlighting in [Cursor](/tricks/cursor/) / [VS Code](/tricks/vscode/):
 
 https://github.com/edheltzel/better-nunjucks-for-visual-studio-code
 
