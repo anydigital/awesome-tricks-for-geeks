@@ -23,4 +23,16 @@ But you can actually do this trick:
 
 ---
 
+https://github.com/edheltzel/better-nunjucks-for-visual-studio-code
+
+This is a modern fork of the original extension. It is specifically designed to solve the "11ty problem" where you mix Nunjucks and HTML.
+
+Best for: 11ty developers using Cursor/VS Code.
+
+Why it's better: It injects Nunjucks grammar directly into the standard HTML grammar. This means you get full Nunjucks highlighting and the editor still knows it's an HTML file, giving you better Emmet and CSS autocompletion.
+
+No Config: It works out of the box without needing to manually map file associations in your settings.
+
+---
+
 Q&A: https://www.reddit.com/r/eleventy/ (yes, they help with Nunjucks!)
