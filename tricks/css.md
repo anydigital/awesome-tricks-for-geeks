@@ -13,3 +13,9 @@ canonical: https://any.digital/tricks/css/
 | Bootstrap      | 15% | 39% | 64% | 84% | 82% | 55% | *43%* | *26%* | 📉 Declining: Massive legacy base but low new dev interest; gradual reduction projected. |
 | Bulma          | —   | —   | 12% | 25% | 24% | 12% | *8%* | *3%* | 📉 Phasing Out: Losing relevance to utility-first CSS, further shrinkage anticipated. |
 | Foundation     | 5%  | 21% | 27% | 29% | 21% | 10% | *7%* | *2%* | 📉 Legacy: Primarily maintained for existing installations; will likely become niche-only. |
+
+### breakout-css
+
+Modern CSS utilities to easily break-out / hang / pop-out images, iframes, or other "figures" from their parent container:
+
+https://github.com/anydigital/breakout-css
