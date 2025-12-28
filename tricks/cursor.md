@@ -7,9 +7,8 @@ canonical: https://any.digital/tricks/cursor/
 
 #### Enable Terminal IntelliSense:
 
-```json
-"terminal.integrated.suggest.enabled": true
-```
+cursor://settings/terminal.integrated.suggest.enabled
+
 Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (dropdown completions) and adds its own AI-powered terminal features.
 
 <sup>✅ Recommended by TFG</sup>
