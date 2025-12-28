@@ -5,11 +5,14 @@ type: tricks
 canonical: https://any.digital/tricks/cursor/
 ---
 
-| Command | Action |
-| --- | --- |
-| ***Terminal:*** |  |
-| Ctrl + \` | toggle terminal |
-| Ctrl + Opt + R | loop through recent commands |
+#### Enable Terminal IntelliSense:
+
+```json
+"terminal.integrated.suggest.enabled": true
+```
+Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (dropdown completions) and adds its own AI-powered terminal features.
+
+<sup>✅ Recommended by TFG</sup>
 
 #### View: Toggle Zen Mode (inspired by Zed)
 
@@ -30,3 +33,11 @@ canonical: https://any.digital/tricks/cursor/
   ...
 }
 ```
+
+#### Shortcuts
+
+| Command | Action |
+| --- | --- |
+| ***Terminal:*** |  |
+| Ctrl + \` | toggle terminal |
+| Ctrl + Opt + R | loop through recent commands |
