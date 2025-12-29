@@ -37,9 +37,19 @@ Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (d
 
 | Command | Action |
 | --- | --- |
-| ***Terminal:*** |  |
-| Ctrl + \` | toggle terminal |
+| ***—— AI ——*** ||
+| Cmd + K | edit/generate inline with AI |
+| Cmd + L	| toggle AI Chat |
+| ***—— Focus Mode ——*** ||
+| Shift + Esc <br><sup>(custom)</sup> | switch to Zen mode <br>- especially useful for side-by-side diffs <br>- recommended Preferences: Open User Settings > Zen Mode: Center Layout OFF |
+| Cmd + B | toggle left sidebar |
+| ***—— Other ——*** ||
+| Opt + Up/Down | move code |
+| Shift + Cmd + V <br><sup>(custom)</sup> | edit Markdown with side preview |
+| ***—— In Terminal ——*** ||
+| Cmd + J | toggle terminal |
 | Ctrl + Opt + R | loop through recent commands |
+| `cursor FILE_OR_FOLDER` | open file/folder in Cursor |
 
 
 #### Hide files, folders and/or symlinks:
