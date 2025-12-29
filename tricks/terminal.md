@@ -1,5 +1,5 @@
 ---
-title: Terminal / Shell / CLI Tips & Tricks for Developers
+title: Terminal/Shell/CLI Tricks
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/terminal/
