@@ -17,15 +17,3 @@ canonical: https://any.digital/tricks/vscode/
 | `code .` | open file/folder in VS Code |
 
 ---
-
-Hide symlinks:
-```json
-# .vscode/settings.json:
-{
-  "search.followSymlinks": false,
-  "files.exclude": {
-    "...": true
-  }
-}
-```
-<sup>✅ Verified by TFG</sup>

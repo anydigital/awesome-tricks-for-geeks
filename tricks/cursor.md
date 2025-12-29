@@ -40,3 +40,16 @@ Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (d
 | ***Terminal:*** |  |
 | Ctrl + \` | toggle terminal |
 | Ctrl + Opt + R | loop through recent commands |
+
+
+#### Hide files, folders and/or symlinks:
+
+```json
+# .vscode/settings.json:
+{
+  "search.followSymlinks": false,
+  "files.exclude": {
+    "FILE_OR_FOLDER": true
+  }
+}
+```
