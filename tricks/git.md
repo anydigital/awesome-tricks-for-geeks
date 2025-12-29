@@ -20,9 +20,14 @@ git grep "SEARCH_FOR" $(git rev-list --all)
 
 ---
 
+Revert a file to its staged version (discarding only the unstaged edits), you should use the terminal:
+```sh
+git restore PATH_TO_FILE
+```
+
 Restore a single file to its state from N commits ago (available in Git 2.23+):
 ```sh
-git restore --source=HEAD~N PATH/TO/YOUR/FILE.ext
+git restore PATH_TO_FILE --source=HEAD~N
 ```
 
 ---
