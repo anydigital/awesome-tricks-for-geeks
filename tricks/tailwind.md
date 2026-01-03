@@ -5,14 +5,14 @@ type: tricks
 canonical: https://any.digital/tricks/tailwind/
 ---
 
-#### Typography
+### Typography
 
 https://github.com/tailwindlabs/tailwindcss-typography
 
 <sup>✅ Recommended by [TfG](/tricks/)</sup>
 
 
-#### Resources
+### Resources
 
 - https://github.com/tailwindlabs/tailwindcss/discussions for Q&A
 - https://www.reddit.com/r/tailwindcss/

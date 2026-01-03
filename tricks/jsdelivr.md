@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/jsdelivr/
 ---
 
-#### `@1-alpha` workaround
+### `@1-alpha` workaround
 
 When trying to use `@1-alpha` jsDelivr gives an error:
 
@@ -16,7 +16,7 @@ When trying to use `@1-alpha` jsDelivr gives an error:
 <sup>✅ Discovered by [TfG](/tricks/)</sup>
 
 
-#### Purge cache
+### Purge cache
 
 Purge the cache of a `@latest`, `@alpha` or similar to force your users to get the new updated version. Otherwise they might wait up to 7 days:
 

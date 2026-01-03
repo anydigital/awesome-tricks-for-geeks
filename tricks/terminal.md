@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/terminal/
 ---
 
-#### Check HTTP headers with `curl`
+### Check HTTP headers with `curl`
 
 ```sh
 curl --head HTTP_URL

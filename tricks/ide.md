@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/ide/
 ---
 
-#### Best modern AI IDEs by market share
+### Best modern AI IDEs by market share
 
 | IDE | 2015 | 2020 | 2023 | 2024 | 2025 | 2026 (forecast) | 2030 (forecast) | AI Philosophy <hr> |
 |---|---|---|---|---|---|---|---|---|

@@ -4,7 +4,7 @@ site: tricks
 type: tricks
 ---
 
-#### Unconvert Team back to the Channel in Rocket.Chat
+### Unconvert Team back to the Channel in Rocket.Chat
 
 You might be already trying this little “Convert to Team” button located under “Channel > Information > ⋮” menu. It works, BUT:
 

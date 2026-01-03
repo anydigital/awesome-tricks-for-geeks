@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/cursor/
 ---
 
-#### Enable Terminal IntelliSense
+### Enable Terminal IntelliSense
 
 cursor://settings/terminal.integrated.suggest.enabled
 
@@ -14,7 +14,7 @@ Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (d
 <sup>✅ Recommended by [TfG](/tricks/)</sup>
 
 
-#### View: Toggle Zen Mode (inspired by Zed)
+### View: Toggle Zen Mode (inspired by Zed)
 
 ```json
 {
@@ -25,7 +25,7 @@ Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (d
 ```
 
 
-#### Markdown: Open Preview to the Side
+### Markdown: Open Preview to the Side
 
 ```json
 {
@@ -36,7 +36,7 @@ Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (d
 ```
 
 
-#### Shortcuts
+### Shortcuts
 
 | Command | Action |
 | --- | --- |
@@ -55,7 +55,7 @@ Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (d
 | `cursor FILE_OR_FOLDER` | open file/folder in Cursor |
 
 
-#### Hide files, folders and/or symlinks
+### Hide files, folders and/or symlinks
 
 ```json
 # .vscode/settings.json:

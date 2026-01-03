@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/njk/
 ---
 
-#### Sort array by attribute
+### Sort array by attribute
 
 Per official documentation:
 
@@ -21,7 +21,7 @@ But you can actually do this trick:
 ```
 
 
-#### .njk syntax highlighting in [Cursor / VS Code](/tricks/cursor/)
+### .njk syntax highlighting in [Cursor / VS Code](/tricks/cursor/)
 
 https://github.com/edheltzel/better-nunjucks-for-visual-studio-code
 
@@ -34,6 +34,6 @@ Why it's better: It injects Nunjucks grammar directly into the standard HTML gra
 No Config: It works out of the box without needing to manually map file associations in your settings.
 
 
-#### Resources
+### Resources
 
 - https://www.reddit.com/r/eleventy/ for Q&A (yes, they help with Nunjucks!)

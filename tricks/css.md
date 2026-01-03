@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/css/
 ---
 
-#### CSS Frameworks by developer usage
+### CSS Frameworks by developer usage
 
 | Framework / Library | 2012 | 2015 | 2017 | 2019 | 2020 | 2025 | *2026 (est.)* | *2030 (est.)* | Trend Summary <hr> |
 |---|---|---|---|---|---|---|---|---|---|
@@ -15,14 +15,14 @@ canonical: https://any.digital/tricks/css/
 | Foundation     | 5%  | 21% | 27% | 29% | 21% | 10% | *7%* | *2%* | 📉 Legacy: Primarily maintained for existing installations; will likely become niche-only. |
 
 
-#### breakout-css
+### breakout-css
 
 Modern CSS utilities to easily break-out / hang / pop-out images, iframes, or other "figures" from their parent container:
 
 https://github.com/anydigital/breakout-css
 
 
-#### float-label-css
+### float-label-css
 
 Bulletproof CSS-only implementation of Float Label pattern with automatic fallback for ANY non-supporting browser:
 
