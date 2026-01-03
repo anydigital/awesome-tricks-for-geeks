@@ -19,11 +19,9 @@ But you can actually do this trick:
 ...
 {% endfor %}
 ```
-<sup>✅ Verified by TFG</sup>
 
----
 
-#### .njk syntax highlighting in [Cursor](/tricks/cursor/) / [VS Code](/tricks/vscode/):
+#### .njk syntax highlighting in [Cursor / VS Code](/tricks/cursor/)
 
 https://github.com/edheltzel/better-nunjucks-for-visual-studio-code
 
@@ -35,6 +33,7 @@ Why it's better: It injects Nunjucks grammar directly into the standard HTML gra
 
 No Config: It works out of the box without needing to manually map file associations in your settings.
 
----
 
-Q&A: https://www.reddit.com/r/eleventy/ (yes, they help with Nunjucks!)
+#### Resources
+
+- https://www.reddit.com/r/eleventy/ for Q&A (yes, they help with Nunjucks!)

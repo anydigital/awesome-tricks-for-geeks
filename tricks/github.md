@@ -26,6 +26,6 @@ gh repo license view CC-BY-SA-4.0 > LICENSE
 ```
 
 
-#### Cool stuff:
+#### Cool stuff
 
 - https://github.com/anuraghazra/github-readme-stats
