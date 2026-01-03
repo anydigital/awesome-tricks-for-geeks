@@ -3,7 +3,8 @@ title: Rocket.Chat Tricks
 site: tricks
 type: tricks
 ---
-## Unconvert Team back to the Channel in Rocket.Chat
+
+#### Unconvert Team back to the Channel in Rocket.Chat
 
 You might be already trying this little “Convert to Team” button located under “Channel > Information > ⋮” menu. It works, BUT:
 
@@ -16,7 +17,5 @@ Lucky us, it’s possible via API:
 3. Finally, convert your team back to the channel calling [/api/v1/teams.convertToChannel](https://developer.rocket.chat/reference/api/rest-api/endpoints/team-collaboration-endpoints/teams-endpoints/convert-team-to-channel).
 
 **Done! 🎉**
-
----
 
 Never give up! And always check API docs 🤖
