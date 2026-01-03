@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/jsdelivr/
 ---
 
-#### Purge cache:
+#### Purge cache
 
 Purge the cache of a `@latest`, `@alpha` or similar to force your users to get the new updated version. Otherwise they might wait up to 7 days:
 
