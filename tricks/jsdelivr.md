@@ -22,4 +22,7 @@ Purge the cache of a `@latest`, `@alpha` or similar to force your users to get t
 
 https://www.jsdelivr.com/tools/purge
 
-Or manually by simply replacing <code>https://<big>cdn</big>.jsdelivr.net/...</code> to <code>//<big>purge</big>.</code>
+Or manually replace this:
+<code>https://<big>cdn</big>.jsdelivr.net/...</code>
+<code>https://<big>purge</big>.jsdelivr.net/...</code>
+to that ↗
