@@ -7,7 +7,7 @@ canonical: https://any.digital/tricks/css/
 
 #### CSS Frameworks by developer usage
 
-| Framework / Library | 2012 | 2015 | 2017 | 2019 | 2020 | 2025 | *2026 (est.)* | *2030 (est.)* | Trend Summary |
+| Framework / Library | 2012 | 2015 | 2017 | 2019 | 2020 | 2025 | *2026 (est.)* | *2030 (est.)* | Trend Summary <hr> |
 |---|---|---|---|---|---|---|---|---|---|
 | [Tailwind](/tricks/tailwind/) | —   | —   | —   | 6%  | 25% | 66% | *73%* | *82%* | 🚀 Hyper-Growth: Current industry standard for new projects; momentum expected to continue. |
 | Bootstrap      | 15% | 39% | 64% | 84% | 82% | 55% | *43%* | *26%* | 📉 Declining: Massive legacy base but low new dev interest; gradual reduction projected. |
