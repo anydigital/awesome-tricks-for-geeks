@@ -31,7 +31,7 @@ git restore PATH_TO_FILE --source=HEAD~N
 (available in Git 2.23+)
 
 
-#### Remove untracked files
+### Remove untracked files
 ```sh
 # Dry Run (See what will be deleted):
 git clean -fdn
