@@ -66,3 +66,11 @@ Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (d
   }
 }
 ```
+
+### Clear/kill terminals
+
+If you are currently typed into the terminal, simply type:
+```sh
+exit
+```
+This will close the session and, in most cases, remove the terminal instance from your list.
