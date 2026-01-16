@@ -80,6 +80,8 @@ This will clear or close the session and, in most cases, remove the terminal ins
 
 ### Auto-formatting on save with Prettier
 
+⚠️ Known issue: make sure to downgrade to v11 (https://github.com/prettier/prettier-vscode/issues/3906#issuecomment-3761391774)
+
 `settings.json`:
 ```json
     "editor.defaultFormatter": "esbenp.prettier-vscode",
