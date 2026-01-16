@@ -76,3 +76,16 @@ clear
 exit
 ```
 This will clear or close the session and, in most cases, remove the terminal instance from your list.
+
+
+### Auto-formatting on save with Prettier
+
+`settings.json`:
+```json
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+```
+(keeping built-in formatting for IDE settings)
