@@ -86,6 +86,7 @@ This will clear or close the session and, in most cases, remove the terminal ins
 ```json
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
+    // Let VS Code to format its own .json settings
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     }
