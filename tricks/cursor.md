@@ -82,8 +82,9 @@ This will clear or close the session and, in most cases, remove the terminal ins
 
 ⚠️ Known issue: make sure to downgrade to v11 (https://github.com/prettier/prettier-vscode/issues/3906#issuecomment-3761391774)
 
-`settings.json`:
 ```json
+# .vscode/settings.json
+
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     // Let VS Code to format its own .json settings
@@ -91,4 +92,3 @@ This will clear or close the session and, in most cases, remove the terminal ins
         "editor.defaultFormatter": "vscode.json-language-features"
     }
 ```
-(keeping built-in formatting for IDE settings)
