@@ -33,6 +33,14 @@ Why it's better: It injects Nunjucks grammar directly into the standard HTML gra
 
 No Config: It works out of the box without needing to manually map file associations in your settings.
 
+### .njk code formatting in [Cursor / VS Code](/tricks/cursor/)
+
+`settings.json`:
+```json
+    "files.associations": {
+        "*.njk": "html"
+    }
+```
 
 ### Resources
 
