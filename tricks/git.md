@@ -33,11 +33,7 @@ git restore PATH_TO_FILE --source=HEAD~N
 
 ### Remove untracked files
 ```sh
-# Dry Run (See what will be deleted):
-git clean -fdn
-
-# Remove untracked files and directories:
-git clean -fd
+git clean -i
 ```
 
 ### Smile 🤓
