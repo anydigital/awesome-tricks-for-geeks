@@ -42,15 +42,7 @@ npm i -g prettier-plugin-twig-nunjucks-melody
 ```json
 # ~/.prettierrc.json
 {
-  "plugins": ["/opt/homebrew/lib/node_modules/prettier-plugin-twig-nunjucks-melody"],
-  "overrides": [
-    {
-      "files": ["**/*.njk"],
-      "options": {
-        "parser": "melody"
-      }
-    }
-  ]
+  "plugins": ["/opt/homebrew/lib/node_modules/prettier-plugin-twig-nunjucks-melody"]
 }
 ```
 
