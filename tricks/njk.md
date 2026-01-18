@@ -33,13 +33,25 @@ Why it's better: It injects Nunjucks grammar directly into the standard HTML gra
 
 No Config: It works out of the box without needing to manually map file associations in your settings.
 
-### .njk code formatting in [Cursor / VS Code](/tricks/cursor/)
+### .njk code formatting in [Cursor / VS Code](/tricks/cursor/) globally
 
-`settings.json`:
+```sh
+npm i -g prettier-plugin-twig-nunjucks-melody
+```
+
 ```json
-    "files.associations": {
-        "*.njk": "html"
+# ~/.prettierrc.json
+{
+  "plugins": ["/opt/homebrew/lib/node_modules/prettier-plugin-twig-nunjucks-melody"],
+  "overrides": [
+    {
+      "files": ["**/*.njk"],
+      "options": {
+        "parser": "melody"
+      }
     }
+  ]
+}
 ```
 
 ### Resources
