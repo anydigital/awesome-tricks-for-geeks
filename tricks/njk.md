@@ -49,3 +49,4 @@ npm i -g prettier-plugin-twig-nunjucks-melody
 ### Resources
 
 - https://www.reddit.com/r/eleventy/ for Q&A (yes, they help with Nunjucks!)
+- https://morten.dk/post/from-nunjucks-to-liquid/
