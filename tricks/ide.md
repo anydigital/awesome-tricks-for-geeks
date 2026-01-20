@@ -14,3 +14,5 @@ canonical: https://any.digital/tricks/ide/
 | Windsurf <br><sup>(Electron)</sup> | 0% | 0% | 0% | 1% | 5% | *8%* | *12%* | AI-Native: "Flow" state with terminal-editor synergy. |
 | Zed <br><sup>(Rust+GPU)</sup> | 0% | 0% | 1% | 2% | 4% | *6%* | *11%* | AI-Native (Modular): High-speed editing via MCP. |
 | JetBrains Air <br><sup>(Kotlin)</sup> | 0% | 0% | 0% | 0% | 2% | *5%* | *9%* | AI-Native: Agent-author/human-editor workflow. |
+
+@TODO: Antigravity
