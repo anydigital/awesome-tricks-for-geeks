@@ -5,6 +5,17 @@ type: tricks
 canonical: https://any.digital/tricks/liquid/
 ---
 
+### Create array in `.liquid`
+
+```liquid
+{% capture _list %}
+1
+2
+3
+{% endcapture %}
+{% assign _list = _list | strip | split: '\n' %}
+```
+
 ### Auto-format `.liquid` in VS Code / Cursor
 
 1. Install [Prettier - Code formatter](https://marketplace.cursorapi.com/items/?itemName=esbenp.prettier-vscode)
