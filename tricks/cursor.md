@@ -48,6 +48,7 @@ Since Cursor is a fork of VS Code, it supports the same Terminal IntelliSense (d
 | Cmd + B | toggle left sidebar |
 | <big>Other:</big> ||
 | Opt + Up/Down | move code |
+| Shift + Option + Down Arrow (or Up Arrow) | duplicate code |
 | Shift + Cmd + V <br><sup>(custom)</sup> | edit Markdown with side preview |
 | <big>Integrated Terminal:</big> ||
 | Cmd + J | toggle terminal |
