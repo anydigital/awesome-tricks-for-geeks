@@ -36,6 +36,13 @@ canonical: https://any.digital/tricks/liquid/
     }
 ```
 
+#### Auto-formating for open (non-closed) tags
+
+```liquid
+{% # if-true trick for auto-formatting support %}
+{% if true %}<body>{% endif %}
+```
+
 ## Beware: False Positives
 
 In Liquid templating, a "false positive" usually occurs when a value you expect to be **falsy** (like an empty string or zero) is actually treated as **truthy** by the Liquid engine.
