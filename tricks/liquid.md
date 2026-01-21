@@ -39,7 +39,7 @@ canonical: https://any.digital/tricks/liquid/
 #### Auto-formating for open (non-closed) tags
 
 ```liquid
-{% # if-true trick for auto-formatting support %}
+{% # if-true trick not to break auto-formatting %}
 {% if true %}<body>{% endif %}
 ```
 
