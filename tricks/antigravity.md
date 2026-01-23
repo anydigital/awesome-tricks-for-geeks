@@ -36,8 +36,8 @@ Opt + Z   # toggle word wrap (useful in side-by-side diffs, markdown tables, ...
 
 ### Enable Terminal Intellisense
 
-[A9y magic link](antigravity://settings/terminal.integrated.suggest.enabled) •
-[Cursor magic link](cursor://settings/terminal.integrated.suggest.enabled)
+- [A9y magic link](antigravity://settings/terminal.integrated.suggest.enabled)
+- [Cursor magic link](cursor://settings/terminal.integrated.suggest.enabled)
 
 Since A9y and Cursor are forks of VS Code, they support the same Terminal IntelliSense (dropdown completions) and adds its own AI-powered terminal features.
 
