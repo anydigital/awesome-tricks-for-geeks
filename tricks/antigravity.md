@@ -21,7 +21,9 @@ For simplicity, let's call Antigravity as `A9y`, similar to `K8s` for Kubernetes
 
 2. Turn Full Screen OFF: [A9y magic link](antigravity://settings/zenMode.fullScreen)
 
-Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen friction.
+3. Turn Center Layout OFF: [A9y magic link](antigravity://settings/zenMode.centerLayout)
+
+Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen and empty panels friction.
 
 ### Focus shortcuts
 
