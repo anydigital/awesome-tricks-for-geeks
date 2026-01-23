@@ -62,6 +62,11 @@ Shift + Opt + Up/Down   # duplicate code
 Shift + Cmd + V         # open Markdown Preview
 ```
 
+### Auto-formatting with Prettier
+
+1. Install Prettier extension
+2. Set it as default formatter: [A9y magic link](antigravity://settings/editor.defaultFormatter)
+
 ### Open Markdown Previews to the Side
 
 Override default Markdown Preview shortcut to actually open Preview to the Side:
@@ -69,10 +74,6 @@ Override default Markdown Preview shortcut to actually open Preview to the Side:
 ```
 @command:markdown.showPreviewToSide  =>  Shift + Cmd + V
 ```
-
-### Auto-format Markdown on save
-
-Install Prettier extension.
 
 ## Other
 
@@ -99,3 +100,11 @@ import antigravity
 
 - **Web Redirection:** Running this command opens your web browser to the classic **XKCD comic #353**, which depicts a programmer flying because Python is so easy to use.
 - **The "geohashing" Library:** Within the `antigravity.py` module, there is an implementation of the XKCD Geohashing algorithm, which allows users to find a random location nearby to meet up based on the day's Dow Jones Industrial Average.
+
+---
+
+Btw, did you know that:
+
+> Google paid $2.4 billion for Antigravity
+> to _license Windsurf IDE forked from VS Code built by_{.ml-2 .text-xs}
+> Microsoft.
