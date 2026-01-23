@@ -60,6 +60,7 @@ agy YOUR_FILE_OR_FOLDER   # open file/folder in A9y
 Opt + Up/Down           # move code
 Shift + Opt + Up/Down   # duplicate code
 Shift + Cmd + V         # open Markdown Preview
+Cmd + P                 # jump to file
 ```
 
 ### Auto-formatting with Prettier
