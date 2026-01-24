@@ -14,6 +14,12 @@ For simplicity, let's call Antigravity as `A9y`, similar to `K8s` for Kubernetes
 
 ## AI
 
+### 🆕 Enabling Sandboxing
+
+You can enable or disable sandboxing in Antigravity User Settings. Toggle "Enable Terminal Sandboxing" to turn sandboxing on or off. When enabled, you can also control network access separately using the "Sandbox Allow Network" toggle.
+
+https://antigravity.google/docs/sandbox-mode
+
 ### Enable Terminal Intellisense
 
 - [A9y magic link](antigravity://settings/terminal.integrated.suggest.enabled)
