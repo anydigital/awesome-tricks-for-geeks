@@ -12,6 +12,27 @@ For simplicity, let's call Antigravity as `A9y`, similar to `K8s` for Kubernetes
 
 ---
 
+## AI
+
+### Enable Terminal Intellisense
+
+- [A9y magic link](antigravity://settings/terminal.integrated.suggest.enabled)
+- [Cursor magic link](cursor://settings/terminal.integrated.suggest.enabled)
+
+Since A9y and Cursor are forks of VS Code, they support the same Terminal IntelliSense (dropdown completions) and adds its own AI-powered terminal features.
+
+### Allow List Terminal Commands
+
+```sh
+ls
+git status
+git diff
+git log
+git show
+```
+
+---
+
 ## Focus
 
 ### Better Zen Mode (inspired by Zed)
@@ -38,13 +59,6 @@ Opt + Z   # toggle word wrap (useful in side-by-side diffs, markdown tables, ...
 ---
 
 ## Terminal
-
-### Enable Terminal Intellisense
-
-- [A9y magic link](antigravity://settings/terminal.integrated.suggest.enabled)
-- [Cursor magic link](cursor://settings/terminal.integrated.suggest.enabled)
-
-Since A9y and Cursor are forks of VS Code, they support the same Terminal IntelliSense (dropdown completions) and adds its own AI-powered terminal features.
 
 ### Terminal shortcuts
 
