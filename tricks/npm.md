@@ -3,11 +3,13 @@ title: npm  Tricks
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/npm/
+reviewed: 2026-01-18
 ---
 
 ### npm link auto-completion with @namespaces support
 
 `~/.zshrc`:
+
 ```
 # Initialize zsh completion system
 autoload -Uz compinit

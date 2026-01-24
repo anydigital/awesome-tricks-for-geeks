@@ -3,6 +3,7 @@ title: Liquid Tricks
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/liquid/
+reviewed: 2026-01-21
 ---
 
 ### Create array in `.liquid`
@@ -57,11 +58,11 @@ In Liquid, **only** `false` and `nil` (null) are falsy. Every other value evalua
 
 #### Common Pitfalls
 
-| Value | Liquid Result | Why? |
-| --- | --- | --- |
-| `""` (Empty String) | **Truthy** | An empty string is still a "present" object. |
-| `0` (Zero) | **Truthy** | Numbers are always truthy, regardless of value. |
-| `[]` (Empty Array) | **Truthy** | An empty collection is not `nil`. |
+| Value               | Liquid Result | Why?                                            |
+| ------------------- | ------------- | ----------------------------------------------- |
+| `""` (Empty String) | **Truthy**    | An empty string is still a "present" object.    |
+| `0` (Zero)          | **Truthy**    | Numbers are always truthy, regardless of value. |
+| `[]` (Empty Array)  | **Truthy**    | An empty collection is not `nil`.               |
 
 ---
 
@@ -71,17 +72,20 @@ To prevent these values from triggering your `if` statements, you should check f
 
 #### The Right Way vs. The Wrong Way
 
-* **Wrong:**
+- **Wrong:**
+
 ```liquid
 {% if my_string %} This will always show if the string exists, even if empty. {% endif %}
 ```
 
-* **Right (Checking for content):**
+- **Right (Checking for content):**
+
 ```liquid
 {% if my_string != blank %} This only shows if there is actual text. {% endif %}
 ```
 
-* **Right (Checking arrays/strings by size):**
+- **Right (Checking arrays/strings by size):**
+
 ```liquid
 {% if my_array.size > 0 %} This ensures the list isn't empty. {% endif %}
 ```
@@ -92,7 +96,7 @@ To prevent these values from triggering your `if` statements, you should check f
 
 Liquid provides special keywords to handle these cases gracefully:
 
-* **`blank`**: Returns true if the value is `nil`, `false`, an empty string, or a string containing only whitespace.
-* **`empty`**: Returns true if the value is an empty string, empty array, or empty hash.
+- **`blank`**: Returns true if the value is `nil`, `false`, an empty string, or a string containing only whitespace.
+- **`empty`**: Returns true if the value is an empty string, empty array, or empty hash.
 
 > **Note:** These are often used with the `unless` tag or the `!=` operator to ensure you are working with meaningful data.
