@@ -9,6 +9,8 @@ canonical: https://any.digital/tricks/antigravity/
 
 For simplicity, let's call Antigravity as `A9y`, similar to `K8s` for Kubernetes.
 
+---
+
 ## Focus
 
 ### Better Zen Mode (inspired by Zed)
@@ -32,6 +34,8 @@ Cmd + B   # toggle left sidebar
 Opt + Z   # toggle word wrap (useful in side-by-side diffs, markdown tables, ...)
 ```
 
+---
+
 ## Terminal
 
 ### Enable Terminal Intellisense
@@ -51,6 +55,8 @@ exit                      # kill/close terminal
 agy YOUR_FILE_OR_FOLDER   # open file/folder in A9y
                           # to install: Shell Command: Install 'agy' command in PATH
 ```
+
+---
 
 ## Editor
 
@@ -75,6 +81,8 @@ Override default Markdown Preview shortcut to actually open Preview to the Side:
 ```
 @command:markdown.showPreviewToSide  =>  Shift + Cmd + V
 ```
+
+---
 
 ## Other
 
