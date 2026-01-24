@@ -98,7 +98,7 @@ But you can re-map it to `Markdown: Open Preview to the Side` shortcut instead.
 }
 ```
 
-## The A9y Easter Egg
+### The A9y Easter Egg
 
 If you have Python installed, you can trigger this feature by typing the following into your terminal or script:
 
@@ -106,7 +106,7 @@ If you have Python installed, you can trigger this feature by typing the followi
 import antigravity
 ```
 
-### What it does:
+#### What it does:
 
 - **Web Redirection:** Running this command opens your web browser to the classic **XKCD comic #353**, which depicts a programmer flying because Python is so easy to use.
 - **The "geohashing" Library:** Within the `antigravity.py` module, there is an implementation of the XKCD Geohashing algorithm, which allows users to find a random location nearby to meet up based on the day's Dow Jones Industrial Average.
