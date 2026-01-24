@@ -3,7 +3,6 @@ title: Markdown Tricks
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/md/
-reviewed: 2026-01-24
 ---
 
 ## `markdown-it-attrs`
