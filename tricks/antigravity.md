@@ -1,5 +1,5 @@
 ---
-title: Antigravity (A9y) Tricks <br><sup>(likely VS Code, Cursor & Windsurf too)</sup>
+title: Antigravity (A9y) Tricks <br><sup>(also for VS Code, Cursor, Windsurf & similar)</sup>
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/antigravity/
