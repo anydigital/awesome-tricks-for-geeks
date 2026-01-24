@@ -31,6 +31,7 @@ Since A9y and Cursor are forks of VS Code, they support the same Terminal Intell
 
 ```sh
 ls
+grep
 git status
 git diff
 git log
