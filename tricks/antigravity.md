@@ -37,14 +37,8 @@ git show
 
 ### Better Zen Mode (inspired by Zed)
 
-1. Override the default Zen Mode shortcut:
-
-```json
-@command:workbench.action.toggleZenMode  =>  Shift + Esc
-```
-
+1. Override `View: Toggle Zen Mode` shortcut to: `Shift + Esc`
 2. Turn Full Screen OFF: [A9y magic link](antigravity://settings/zenMode.fullScreen)
-
 3. Turn Center Layout OFF: [A9y magic link](antigravity://settings/zenMode.centerLayout)
 
 Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen and empty panels friction.
@@ -91,11 +85,9 @@ Cmd + P                 # jump to file
 
 ### Open Markdown Previews to the Side
 
-Override default Markdown Preview shortcut to actually open Preview to the Side:
+By default `Shift + Cmd + V` opens preview in the same editor pane (which is annoying).
 
-```
-@command:markdown.showPreviewToSide  =>  Shift + Cmd + V
-```
+But you can re-map it to `Markdown: Open Preview to the Side` shortcut instead.
 
 ---
 
