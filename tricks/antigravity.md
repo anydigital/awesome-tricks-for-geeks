@@ -35,6 +35,11 @@ git show
 
 ## Focus
 
+```sh
+Cmd + B   # toggle left sidebar
+Opt + Z   # toggle word wrap (useful in side-by-side diffs, markdown tables, ...)
+```
+
 ### Better Zen Mode (inspired by Zed)
 
 1. Override `View: Toggle Zen Mode` shortcut to: `Shift + Esc`
@@ -43,18 +48,9 @@ git show
 
 Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen and empty panels friction.
 
-### Focus shortcuts
-
-```sh
-Cmd + B   # toggle left sidebar
-Opt + Z   # toggle word wrap (useful in side-by-side diffs, markdown tables, ...)
-```
-
 ---
 
 ## Terminal
-
-### Terminal shortcuts
 
 ```sh
 Cmd + J                   # toggle terminal
@@ -68,8 +64,6 @@ agy YOUR_FILE_OR_FOLDER   # open file/folder in A9y
 ---
 
 ## Editor
-
-### Editor shortcuts
 
 ```sh
 Opt + Up/Down           # move code
