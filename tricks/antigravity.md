@@ -3,6 +3,7 @@ title: Antigravity (A9y) Tricks <br><sup>(likely VS Code, Cursor & Windsurf too)
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/antigravity/
+reviewed: 2026-01-24
 ---
 
 > A9y = Antigravity
