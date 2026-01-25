@@ -120,8 +120,7 @@ import antigravity
 
 ---
 
-Btw, did you know that:
+## PS:
 
-> Google paid $2.4 billion for Antigravity
-> to _license Windsurf IDE forked from VS Code built by_{.ml-2 .text-xs}
-> Microsoft.
+- https://any.digital/insights/ai-ide/
+
