@@ -1,5 +1,5 @@
 ---
-title: Antigravity (A9y) Tricks <br><sup>covering VS Code, Cursor, Windsurf & similar</sup>
+title: Antigravity (A9y) Tricks <small>covering VS Code, Cursor, Windsurf & similar</small>
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/antigravity/
@@ -123,4 +123,3 @@ import antigravity
 ## PS:
 
 - https://any.digital/insights/ai-ide/
-
