@@ -36,6 +36,7 @@ git status
 git diff
 git log
 git show
+npm test
 ```
 
 ---
