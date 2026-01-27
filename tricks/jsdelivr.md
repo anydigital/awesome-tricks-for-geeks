@@ -16,13 +16,15 @@ When trying to use `@1-alpha` jsDelivr gives an error:
 
 ### Purge cache
 
-Purge the cache of a `@latest`, `@alpha` or similar to force your users to get the new updated version. Otherwise they might wait up to 7 days:
+Purge the cache of a `@latest`, `@alpha` or similar tags to force your users to get the new updated version. Otherwise they might wait up to 7 days:
 
 https://www.jsdelivr.com/tools/purge
 
-Or manually replace `cdn.` to `purge.`:
+Or manually replace:
 
-- <code>https://<big>cdn</big>.jsdelivr.net/...</code>
-- <code>https://<big>purge</big>.jsdelivr.net/...</code>
+<pre><code>https://<big>cdn</big>.jsdelivr.net/...
+         ↓
+https://<big>purge</big>.jsdelivr.net/...
+</code></pre>
 
-and hit that new link in browser / [curl](/tricks/terminal/).
+and hit the resulted link in the browser / [curl](/tricks/terminal/).
