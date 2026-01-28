@@ -1,5 +1,5 @@
 ---
-title: Liquid Tricks <small>for Eleventy, Shopify etc.</small>
+title: Liquid Tricks <sub>for Eleventy, Shopify etc.</sub>
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/liquid/

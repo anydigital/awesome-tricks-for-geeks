@@ -1,5 +1,5 @@
 ---
-title: Antigravity Tricks <small>covering VS Code, Cursor, Windsurf & similar</small>
+title: Antigravity Tricks <sub>covering VS Code, Cursor, Windsurf & similar</sub>
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/antigravity/
