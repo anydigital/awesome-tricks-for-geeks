@@ -1,5 +1,5 @@
 ---
-title: Liquid Tricks
+title: Liquid Tricks <small>for 11ty, Shopify etc.</small>
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/liquid/
