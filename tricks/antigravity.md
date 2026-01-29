@@ -83,8 +83,11 @@ Cmd + P                 # jump to file
 
 ### Auto-formatting with Prettier
 
-1. Install Prettier extension
-2. Set it as default formatter: [A9y magic link](antigravity://settings/editor.defaultFormatter)
+1. 🧩 Install https://github.com/prettier/prettier-vscode
+2. ⚙️ Set it as default formatter:
+   - [A9y magic link](antigravity://settings/editor.defaultFormatter)
+   - [Cursor magic link](cursor://settings/editor.defaultFormatter)
+   - [VS Code magic link](vscode://settings/editor.defaultFormatter)
 
 ### Open Markdown Previews to the Side
 
