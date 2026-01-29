@@ -6,7 +6,7 @@ revised: 2026-01-29
 canonical: https://any.digital/tricks/njk/
 ---
 
-## First Things First
+First things first: {#njk-vscode .lead .!-mb-[1em]}
 
 ### Syntax highlighting <small>for `.njk` in [VS Code~editors](/tricks/antigravity/)</small>
 
@@ -68,3 +68,7 @@ But you can actually do this trick:
   ...
 {% endfor %}
 ```
+
+---
+
+- See also https://any.digital/tricks/11ty/
