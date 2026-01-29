@@ -1,9 +1,9 @@
 ---
-title: Liquid Tricks <sub>for Eleventy, Shopify etc.</sub>
+title: Liquid Tricks <sub>for Shopify, Eleventy, Jekyll etc.</sub>
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/liquid/
-reviewed: 2026-01-21
+revised: 2026-01-21
 ---
 
 ### Create array in `.liquid`

@@ -3,7 +3,7 @@ title: jsDelivr Tricks
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/jsdelivr/
-reviewed: 2026-01-24
+revised: 2026-01-24
 ---
 
 ### `@1-alpha` workaround
