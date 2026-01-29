@@ -10,7 +10,7 @@ First things first: {#njk-vscode .lead .!-mb-[1em]}
 
 ### Syntax highlighting <small>for `.njk` in [VS Code~editors](/tricks/antigravity/)</small>
 
-🧩 Install https://github.com/edheltzel/better-nunjucks-for-visual-studio-code
+🧩 Simply install https://github.com/edheltzel/better-nunjucks-for-visual-studio-code
 
 This is a modern fork of the original extension. It is specifically designed to solve the "11ty problem" where you mix Nunjucks and HTML.
 
