@@ -1,5 +1,5 @@
 ---
-title: "Antigravity Tricks <sub>& VS Code-based editors (Cursor, Windsurf etc.)</sub>"
+title: "Antigravity Tricks <sub>& VS Code~editors (Cursor, Windsurf etc.)</sub>"
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/antigravity/
@@ -122,6 +122,6 @@ import antigravity
 
 ---
 
-## PS:
+## `PS:`
 
 - https://any.digital/insights/ai-ide/
