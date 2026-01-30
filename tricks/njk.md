@@ -8,7 +8,7 @@ canonical: https://any.digital/tricks/njk/
 
 First things first: {#njk-vscode .lead .!-mb-[1em]}
 
-### Syntax highlighting <sub>for `.njk` in [VS Code~editors](/tricks/antigravity/)</sub>
+## Syntax highlighting <sub>for `.njk` in [VS Code~editors](/tricks/antigravity/)</sub>
 
 🧩 Simply install https://github.com/edheltzel/better-nunjucks-for-visual-studio-code
 
@@ -18,7 +18,7 @@ This is a modern fork of the original extension. It is specifically designed to 
 
 **No Config:** It works out of the box without needing to manually map file associations in your settings.
 
-### Auto-formatting <sub>for `.njk` in [VS Code~editors](/tricks/antigravity/)</sub>
+## Auto-formatting <sub>for `.njk` in [VS Code~editors](/tricks/antigravity/)</sub>
 
 1. 🧩 Install https://github.com/prettier/prettier-vscode (if not yet)
 
