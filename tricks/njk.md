@@ -79,4 +79,5 @@ But you can actually do this trick:
 
 ---
 
+- Featured in https://11tybundle.dev/categories/nunjucks-macros/
 - See also https://any.digital/tricks/11ty/
