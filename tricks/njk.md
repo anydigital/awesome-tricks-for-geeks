@@ -69,6 +69,14 @@ But you can actually do this trick:
 {% endfor %}
 ```
 
+### Render `.md` file w/o its front matter
+
+```jinja2
+{% set file = './YOUR_FILE.md' %}
+{% set _ = "{% renderFile '$', {}, 'html' %}" | replace('$', file) %}
+{{ _ | renderContent('njk') | replace(r/^---[\s\S]*?---/, "") | renderContent('md') | safe }}
+```
+
 ---
 
 - See also https://any.digital/tricks/11ty/
