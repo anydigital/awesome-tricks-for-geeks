@@ -5,7 +5,7 @@ type: tricks
 canonical: https://any.digital/tricks/symbols/
 ---
 
-From https://bearblog.dev/:
+From https://bearblog.dev/ :
 
 ʕ•ᴥ•ʔ
 
