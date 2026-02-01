@@ -5,12 +5,6 @@ type: tricks
 canonical: https://any.digital/tricks/git/
 ---
 
-### Git Commit Email Privacy in 5 Minutes
-
-Automatic no-reply email, `useConfigOnly`, and conditional `includeIf`:
-
-[/tricks/git-commit-email-privacy/](/tricks/git-commit-email-privacy/)
-
 ### Search the whole git history
 
 ```sh

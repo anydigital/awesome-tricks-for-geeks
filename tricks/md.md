@@ -7,16 +7,20 @@ canonical: https://any.digital/tricks/md/
 
 ## `markdown-it-attrs`
 
-### Long-long links with many-many CSS classes, but readable
+### Long-long link with many-many CSS classes, and still readable!
 
+<!-- prettier-ignore-start -->
 ```md
 [Suggest a Page<i class="fa-brands fa-github ml-1"></i>
-](https://github.com/anydigital/awesome-tricks-for-geeks/new/main/tricks){.text-slate-500 .font-light .decoration-dashed}
+](https://github.com/anydigital/awesome-tricks-for-geeks/new/main/tricks
+){.text-slate-500 .font-light .decoration-dashed}
 ```
 
-It works with lists too!
+You can even add list item classes!
 
 ```md
 - [Suggest a Page<i class="fa-brands fa-github ml-1"></i>
-  ](https://github.com/anydigital/awesome-tricks-for-geeks/new/main/tricks){.text-slate-500 .font-light .decoration-dashed} {.list-none}
+  ](https://github.com/anydigital/awesome-tricks-for-geeks/new/main/tricks
+  ){.text-slate-500 .font-light .decoration-dashed} {.list-none}
 ```
+<!-- prettier-ignore-end -->
