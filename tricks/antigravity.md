@@ -6,13 +6,15 @@ canonical: https://any.digital/tricks/antigravity/
 revised: 2026-01-24
 ---
 
+---
+
 > A9y = Antigravity
 
 For simplicity, let's call Antigravity as `A9y`, similar to `K8s` for Kubernetes.
 
 ---
 
-## AI
+## AI <small>Tricks</small>
 
 ### 🆕 Enabling Sandboxing
 
@@ -42,14 +44,14 @@ npm test
 
 ---
 
-## Focus
+## Keep Focus
 
-```sh
-Cmd + B   # toggle left sidebar
-Opt + Z   # toggle word wrap (useful in side-by-side diffs, markdown tables, ...)
-```
+| Command   | Description                                                           |
+| --------- | --------------------------------------------------------------------- |
+| `Cmd + B` | toggle left sidebar                                                   |
+| `Opt + Z` | toggle word wrap (useful in side-by-side diffs, markdown tables, ...) |
 
-### Better Zen Mode (inspired by Zed)
+### 🥷 Better Zen Mode (inspired by Zed)
 
 1. Override `View: Toggle Zen Mode` shortcut to: `Shift + Esc`
 2. Turn Full Screen OFF: [A9y magic link](antigravity://settings/zenMode.fullScreen)
@@ -59,27 +61,26 @@ Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen and 
 
 ---
 
-## Terminal
+## Terminal <small>Commands</small>
 
-```sh
-Cmd + J                   # toggle terminal
-Ctrl + Opt + R            # loop through recent commands
-clear                     # clear terminal
-exit                      # kill/close terminal
-agy YOUR_FILE_OR_FOLDER   # open file/folder in A9y
-                          # to install: Shell Command: Install 'agy' command in PATH
-```
+| Command          | Description                                                                       |
+| ---------------- | --------------------------------------------------------------------------------- |
+| `Cmd + J`        | toggle terminal                                                                   |
+| `Ctrl + Opt + R` | loop through recent commands                                                      |
+| `clear`          | clear terminal                                                                    |
+| `exit`           | kill/close terminal                                                               |
+| `agy <path>`     | open file/folder in A9y (install: `Shell Command: Install 'agy' command in PATH`) |
 
 ---
 
-## Editor
+## Editing <small>Tricks</small>
 
-```sh
-Opt + Up/Down           # move code
-Shift + Opt + Up/Down   # duplicate code
-Shift + Cmd + V         # open Markdown Preview
-Cmd + P                 # jump to file
-```
+| Command                 | Description           |
+| ----------------------- | --------------------- |
+| `Opt + Up/Down`         | move code             |
+| `Shift + Opt + Up/Down` | duplicate code        |
+| `Shift + Cmd + V`       | open Markdown Preview |
+| `Cmd + P`               | jump to file          |
 
 ### Auto-formatting with Prettier
 
@@ -97,7 +98,7 @@ But you can re-map it to `Markdown: Open Preview to the Side` shortcut instead.
 
 ---
 
-## Other
+## Other <small>Tricks</small>
 
 ### Hide files, folders, symlinks
 
@@ -125,6 +126,6 @@ import antigravity
 
 ---
 
-## `PS:`
+## See Also
 
 - https://any.digital/insights/ai-ide/
