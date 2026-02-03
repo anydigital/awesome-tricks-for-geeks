@@ -111,18 +111,29 @@ But you can re-map it to `Markdown: Open Preview to the Side` shortcut instead.
 }
 ```
 
-### The A9y Easter Egg
+### The A9y Easter Eggs
 
-If you have Python installed, you can trigger this feature by typing the following into your terminal or script:
+If you have Python installed, you can trigger this feature by typing the following into your terminal:
 
-```python
-import antigravity
+```sh
+python3 -c "import antigravity"
 ```
 
-#### What it does:
+Running this command opens your web browser to the classic [XKCD comic #353](https://xkcd.com/353/), which depicts a programmer flying because Python is so easy to use:
 
-- **Web Redirection:** Running this command opens your web browser to the classic **XKCD comic #353**, which depicts a programmer flying because Python is so easy to use.
-- **The "geohashing" Library:** Within the `antigravity.py` module, there is an implementation of the XKCD Geohashing algorithm, which allows users to find a random location nearby to meet up based on the day's Dow Jones Industrial Average.
+![](https://imgs.xkcd.com/comics/python.png)
+
+#### The Egg inside the Egg
+
+The `antigravity` module is a famous Python "Easter egg." While most people know it for opening the XKCD "Python" comic in your browser when imported, it contains a second "egg inside the egg": a functional implementation of the **Munroe Algorithm** (Geohashing).
+
+**How it Works:** The algorithm, described in [XKCD #426](https://xkcd.com/426/), generates a set of random coordinates for every area (graticule) on Earth each day. To ensure the locations are unpredictable until the day of, the algorithm uses the most recent **Dow Jones Industrial Average** opening price as a "salt" for the hash.
+
+![](https://imgs.xkcd.com/comics/geohashing.png)
+
+It has been included in the CPython standard library since version 2.7 and 3.1.
+
+**But Why?** The original idea was to encourage people to get outside and meet at a random, algorithmically-generated spot in their local area.
 
 ---
 
