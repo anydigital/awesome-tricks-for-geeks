@@ -3,7 +3,7 @@ title: "Antigravity Tricks <sub>& VS Code~editors (Cursor, Windsurf etc.)</sub>"
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/antigravity/
-revised: 2026-02-01
+revised: 2026-02-02
 ---
 
 ---
