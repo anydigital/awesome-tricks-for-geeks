@@ -72,9 +72,8 @@ But you can actually do this trick:
 ### Render `.md` file w/o its front matter
 
 ```jinja2
-{% set file = './YOUR_FILE.md' %}
-{% set _ = "{% renderFile '$', {}, 'html' %}" | replace('$', file) %}
-{{ _ | renderContent('njk') | replace(r/^---[\s\S]*?---/, "") | renderContent('md') | safe }}
+{% set _md = "{% renderFile './YOUR_FILE.md', {}, 'html' %}" | renderContent('njk') %}
+{{ _md | replace(r/^---[\s\S]*?---/, "") | renderContent('md') | safe }}
 ```
 
 ---
