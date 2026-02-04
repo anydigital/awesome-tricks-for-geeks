@@ -16,18 +16,13 @@ For simplicity, let's call Antigravity as `A9y`, similar to `K8s` for Kubernetes
 
 ## AI <small>Tricks</small>
 
+In **A9y** (Antigravity IDE), the AI is designed to be agentic, meaning it doesn't just suggest text but can actually execute tasks across your editor, terminal, and browser.
+
 ### 🆕 Enabling Sandboxing
 
 You can enable or disable sandboxing in Antigravity User Settings. Toggle "Enable Terminal Sandboxing" to turn sandboxing on or off. When enabled, you can also control network access separately using the "Sandbox Allow Network" toggle.
 
 https://antigravity.google/docs/sandbox-mode
-
-### Enable Terminal Intellisense
-
-- [A9y magic link](antigravity://settings/terminal.integrated.suggest.enabled)
-- [Cursor magic link](cursor://settings/terminal.integrated.suggest.enabled)
-
-Since A9y and Cursor are forks of VS Code, they support the same Terminal IntelliSense (dropdown completions) and adds its own AI-powered terminal features.
 
 ### Allow List Terminal Commands
 
@@ -41,6 +36,37 @@ git log
 git show
 npm test
 ```
+
+### Enable Terminal Intellisense
+
+- [A9y magic link](antigravity://settings/terminal.integrated.suggest.enabled)
+- [Cursor magic link](cursor://settings/terminal.integrated.suggest.enabled)
+
+Since A9y and Cursor are forks of VS Code, they support the same Terminal IntelliSense (dropdown completions) and adds its own AI-powered terminal features.
+
+### AI Shortcuts
+
+Here are the top AI commands and shortcuts to master the workflow:
+
+| Command                                | Action                                                                                                |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `Cmd + I`                              | Inline AI                                                                                             |
+| `Cmd + L` <sub>`Cmd + Shift + L`</sub> | Agent Panel/Chat <sub>open new</sub>                                                                  |
+| `Cmd + E`                              | **Mode Switch:** Quickly toggle between **Fast** (quick edits) and **Planning** (complex tasks) modes |
+| `Tab`                                  | Accept ghost-text suggestions                                                                         |
+
+### Powerful Slash `/` & Context `@` Commands
+
+In the **Agent Panel**, use these to refine your requests:
+
+- `/test`: A workflow command to automatically generate and run unit tests for the active file.
+- `/review`: Initiates a deep-scan of your current changes to check for bugs or DRY (Don't Repeat Yourself) violations.
+- `@YOUR_FILE`: Explicitly attach specific files or folders to the AI's context window so it "sees" the relevant code.
+- `@browser`: Invokes the Browser Agent to verify UI changes or scrape documentation.
+
+### Agent Rules <sub>`.agent/rules/`</sub>
+
+You can automate your own "commands" by adding `.md` files to the `.agent/rules/` directory. For example, a rule saying "Always use TypeScript strict mode" acts as a permanent background command that the AI follows without you having to ask every time.
 
 ---
 
@@ -75,12 +101,13 @@ Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen and 
 
 ## Editing <small>Tricks</small>
 
-| Command                 | Description           |
-| ----------------------- | --------------------- |
-| `Opt + Up/Down`         | move code             |
-| `Shift + Opt + Up/Down` | duplicate code        |
-| `Shift + Cmd + V`       | open Markdown Preview |
-| `Cmd + P`               | jump to file          |
+| Command                 | Description                |
+| ----------------------- | -------------------------- |
+| `Opt + Up/Down`         | move code                  |
+| `Shift + Opt + Up/Down` | duplicate code             |
+| `Shift + Cmd + V`       | open Markdown Preview      |
+| `Cmd + P`               | jump to file               |
+| `Shift + Opt + I`       | activate multi-line cursor |
 
 ### Auto-formatting with Prettier
 
