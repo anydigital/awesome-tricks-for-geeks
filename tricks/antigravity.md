@@ -127,6 +127,23 @@ But you can re-map it to `Markdown: Open Preview to the Side` shortcut instead.
 
 ## Other <small>Tricks</small>
 
+### Comparing two files (diffing)
+
+In **A9y**, comparing two files (Diffing) is straightforward and can be handled via the UI or the integrated terminal.
+
+Using the UI (Side Bar):
+
+1. Open the **Explorer** view in the left sidebar.
+2. **Right-click** the first file and select **Select for Compare**.
+3. **Right-click** the second file and select **Compare with Selected**.
+4. A side-by-side diff editor will open, highlighting additions (green) and deletions (red).
+
+Using the Command Line:
+
+```sh
+agy --diff FILE1 FILE2
+```
+
 ### Hide files, folders, symlinks
 
 ```json {data-caption=YOUR_PROJECT/.vscode/settings.json}
