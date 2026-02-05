@@ -104,11 +104,11 @@ But you can actually do this trick:
 ### Render `.md` file w/o its front matter <small>11ty-only</small>
 
 ```jinja2 {data-caption=.njk}
-{# first trick is to get raw .md file content into the variable #}
+{# first, get the raw content using `html` as plain-text engine #}
 {% set _eval = "{% renderFile './YOUR_FILE.md', {}, 'html' %}" %}
-{% set _raw = _eval | renderContent('njk') %}
-{# second trick is to remove the front matter using regex, and finally render using `md` #}
-{{ _md | replace(r/^---[\s\S]*?---/, "") | renderContent('md') | safe }}
+{% set _raw_md = _eval | renderContent('njk') %}
+{# then, remove the front matter using regex, and render using `md` #}
+{{ _raw_md | replace(r/^---[\s\S]*?---/, "") | renderContent('md') | safe }}
 ```
 
 ---
