@@ -101,7 +101,7 @@ But you can actually do this trick:
 {% endfor %}
 ```
 
-### Include and render `.md` file w/o its Front Matter <small>11ty-only</small>
+### Include and render `.md` file w/o its Front Matter <small>(11ty-only)</small>
 
 ```jinja2 {data-caption=.njk}
 {# first, get the raw content using `html` as plain-text engine #}
