@@ -109,7 +109,7 @@ But you can actually do this trick:
 {% set _raw_md = _eval | renderContent('njk') %}
 
 {# then, remove the front matter using regex, and render using `md` #}
-{{ _raw_md | replace(r/^---[\s\S]*?---/, "") | renderContent('md') | safe }}
+{{ _raw_md | replace(r/^---[\s\S]*?---/, '') | renderContent('md') | safe }}
 ```
 
 ---
