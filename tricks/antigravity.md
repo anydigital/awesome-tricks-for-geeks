@@ -90,6 +90,7 @@ You can automate your own "commands" by adding `.md` files to the `.agent/rules/
 1. Override `View: Toggle Zen Mode` shortcut to: `Shift + Esc`
 2. Turn Full Screen OFF: [A9y magic link](antigravity://settings/zenMode.fullScreen)
 3. Turn Center Layout OFF: [A9y magic link](antigravity://settings/zenMode.centerLayout)
+4. Unhide line numbers: [A9y magic link](antigravity://settings/zenMode.hideStatusBar)
 
 Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen and empty panels friction.
 
