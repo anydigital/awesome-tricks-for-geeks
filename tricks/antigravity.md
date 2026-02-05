@@ -68,6 +68,14 @@ In the **Agent Panel**, use these to refine your requests:
 
 You can automate your own "commands" by adding `.md` files to the `.agent/rules/` directory. For example, a rule saying "Always use TypeScript strict mode" acts as a permanent background command that the AI follows without you having to ask every time.
 
+#### How to configure A9y AI globally to always prefer `git mv` for moving/renaming files?
+
+1. Open A9y and press `Cmd + Shift + P` (or `Ctrl + Shift + P`).
+2. Search for **"Antigravity: Open User Customizations"**.
+3. In the `Global Instructions` text area, append:
+`"Preference: Always use 'git mv' for file relocations and renames."`
+4. Save and restart your session.
+
 ---
 
 ## Keeping Focus
