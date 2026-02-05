@@ -2,8 +2,8 @@
 title: Nunjucks & Liquid Tricks <sub>for Eleventy, Shopify, Jekyll etc.</sub>
 site: tricks
 type: tricks
-revised: 2026-01-29
-canonical: https://any.digital/tricks/njk/
+revised: 2026-02-04
+canonical: https://any.digital/tricks/njk-liquid/
 ---
 
 ---
