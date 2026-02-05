@@ -104,7 +104,8 @@ But you can actually do this trick:
 ### Render `.md` file w/o its front matter <small>11ty-only</small>
 
 ```jinja2 {data-caption=.njk}
-{% set _md = "{% renderFile './YOUR_FILE.md', {}, 'html' %}" | renderContent('njk') %}
+{% set _eval = "{% renderFile './YOUR_FILE.md', {}, 'html' %}" %}
+{% set _md = _eval | renderContent('njk') %}
 {{ _md | replace(r/^---[\s\S]*?---/, "") | renderContent('md') | safe }}
 ```
 
