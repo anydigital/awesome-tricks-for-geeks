@@ -78,12 +78,12 @@ For `.liquid` is easier:
 ### Create array
 
 ```liquid {data-caption=.liquid}
-{% capture _list %}
+{% capture _new_array %}
 1
 2
 3
 {% endcapture %}
-{% assign _list = _list | strip | split: '\n' %}
+{% assign _new_array = _new_array | strip | split: '\n' %}
 ```
 
 ### Sort array by attribute
