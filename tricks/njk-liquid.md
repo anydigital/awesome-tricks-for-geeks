@@ -107,6 +107,7 @@ But you can actually do this trick:
 {# first, get the raw content using `html` as plain-text engine #}
 {% set _eval = "{% renderFile './YOUR_FILE.md', {}, 'html' %}" %}
 {% set _raw_md = _eval | renderContent('njk') %}
+
 {# then, remove the front matter using regex, and render using `md` #}
 {{ _raw_md | replace(r/^---[\s\S]*?---/, "") | renderContent('md') | safe }}
 ```
