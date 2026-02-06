@@ -101,6 +101,8 @@ But you can actually do this trick:
 {% endfor %}
 ```
 
+<!--section:11ty-->
+
 ### Include and render `.md` file w/o its Front Matter <small>(11ty-only)</small>
 
 ```jinja2 {data-caption=.njk}
@@ -111,6 +113,8 @@ But you can actually do this trick:
 {# then, remove the front matter using regex, and render using `md` #}
 {{ _raw_md | replace(r/^---[\s\S]*?---/, '') | renderContent('md') | safe }}
 ```
+
+<!--section-->
 
 ---
 

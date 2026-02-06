@@ -1,5 +1,5 @@
 ---
-title: npm  Tricks
+title: npm Tricks
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/npm/
