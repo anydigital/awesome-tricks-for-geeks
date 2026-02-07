@@ -11,6 +11,8 @@ includes:
 
 ## First Things First
 
+<!--section:11ty-basics-->
+
 ### Syntax highlighting <small>in [VS Code~editors](/tricks/antigravity/)</small>
 
 For `.njk`: {#njk-vscode}
@@ -72,6 +74,8 @@ For `.liquid` is easier:
 
 ```
 
+<!--section:other-->
+
 ---
 
 ## Tricks
@@ -102,8 +106,6 @@ But you can actually do this trick:
 {% endfor %}
 ```
 
-<!--section:11ty-->
-
 ### Include and render `.md` file w/o its Front Matter <small>(11ty-only)</small>
 
 ```jinja2 {data-caption=.njk}
@@ -114,8 +116,6 @@ But you can actually do this trick:
 {# then, remove the front matter using regex, and render using `md` #}
 {{ _raw_md | replace(r/^---[\s\S]*?---/, '') | renderContent('md') | safe }}
 ```
-
-<!--section-->
 
 ---
 
