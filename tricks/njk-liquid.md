@@ -18,6 +18,7 @@ includes:
 - https://mozilla.github.io/nunjucks/templating.html#builtin-filters
 - https://shopify.github.io/liquid/#filters-section
 - https://www.11ty.dev/docs/filters/#eleventy-provided-filters
+- https://www.11ty.dev/docs/plugins/render/#render-content-filter
 
 ### Syntax highlighting <sub>in [VS Code~editors](/tricks/antigravity/)</sub>
 
