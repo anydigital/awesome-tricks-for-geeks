@@ -15,7 +15,7 @@ includes:
 
 ### Syntax highlighting <small>in [VS Code~editors](/tricks/antigravity/)</small>
 
-For `.njk`: {#njk-vscode}
+#### `.njk` {#njk-vscode}
 
 - 🧩 Install https://github.com/edheltzel/better-nunjucks-for-visual-studio-code
 
@@ -25,7 +25,7 @@ This is a modern fork of the original extension. It is specifically designed to 
 
 **No Config:** It works out of the box without needing to manually map file associations in your settings.
 
-For `.liquid`:
+#### `.liquid`
 
 - 🧩 Install https://shopify.dev/docs/storefronts/themes/tools/shopify-liquid-vscode
 
@@ -33,7 +33,7 @@ For `.liquid`:
 
 1. 🧩 Install https://github.com/prettier/prettier-vscode (if not yet)
 
-For `.njk` few more steps:
+#### `.njk`
 
 2. Install a compatible Prettier plugin for your project, for example:
 
@@ -63,16 +63,30 @@ npm i -D prettier-plugin-jinja-template
 ln -s ./node_modules/@anydigital/bricks/.prettierrc.json
 ```
 
-For `.liquid` is easier:
+#### `.liquid`
 
 2. 🧩 Install https://shopify.dev/docs/storefronts/themes/tools/shopify-liquid-vscode (same extension for both highlighting and formatting)
 
-#### Ignore open (non-closed) tags
+##### How to prevent unclosed html tags from breaking auto-formatting?
 
-```liquid {data-caption="in .liquid wrap the tag with 'if true':"}
+`{% # prettier-ignore %}` might not help with that, because the parser crashes on the "broken" HTML before it even reads the ignore command.
+
+But there is a trick with "fake" `{% if true %}` condition:
+
+```liquid {data-caption=_html-begin.liquid}
 {% if true %}<html>{% endif %}
-
+<head>
+  ...
+</head>
+{% if true %}<body>{% endif %}
+  ...
 ```
+
+```liquid {data-caption=_html-end.liquid}
+{% if true %}</body><html>{% endif %}
+```
+
+This "fake conditional" trick is a clever way to bypass the Abstract Syntax Tree (AST) parsers used by formatters like Prettier. Since the formatter sees the tag wrapped in a logic block, it often treats the HTML as a string or a partial fragment rather than a structural error.
 
 <!--section:other-->
 
