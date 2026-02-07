@@ -6,8 +6,6 @@ canonical: https://any.digital/tricks/antigravity/
 revised: 2026-02-04
 ---
 
----
-
 > A9y = Antigravity
 
 For simplicity, let's call Antigravity as `A9y`, similar to `K8s` for Kubernetes.

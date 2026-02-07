@@ -6,8 +6,6 @@ revised: 2026-02-04
 canonical: https://any.digital/tricks/njk-liquid/
 ---
 
----
-
 ## First Things First
 
 ### Syntax highlighting <small>in [VS Code~editors](/tricks/antigravity/)</small>
