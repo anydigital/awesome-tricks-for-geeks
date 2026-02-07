@@ -13,12 +13,12 @@ includes:
 
 <!--section:11ty-basics-->
 
-### Built-in Filters
+### Built-in filters
 
 - https://mozilla.github.io/nunjucks/templating.html#builtin-filters
 - https://shopify.github.io/liquid/#filters-section
 
-### Syntax highlighting <small>in [VS Code~editors](/tricks/antigravity/)</small>
+### Syntax highlighting <sub>in [VS Code~editors](/tricks/antigravity/)</sub>
 
 #### `.njk` {#njk-vscode}
 
@@ -34,7 +34,7 @@ This is a modern fork of the original extension. It is specifically designed to 
 
 - 🧩 Install https://shopify.dev/docs/storefronts/themes/tools/shopify-liquid-vscode
 
-### Auto-formatting <small>in [VS Code~editors](/tricks/antigravity/)</small>
+### Auto-formatting <sub>in [VS Code~editors](/tricks/antigravity/)</sub>
 
 1. 🧩 Install https://github.com/prettier/prettier-vscode (if not yet)
 
