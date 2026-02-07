@@ -73,7 +73,7 @@ You can automate your own "commands" by adding `.md` files to the `.agent/rules/
 1. Open A9y and press `Cmd + Shift + P` (or `Ctrl + Shift + P`).
 2. Search for **"Antigravity: Open User Customizations"**.
 3. In the `Global Instructions` text area, append:
-`"Preference: Always use 'git mv' for file relocations and renames."`
+   `"Preference: Always use 'git mv' for file relocations and renames."`
 4. Save and restart your session.
 
 ---
@@ -125,6 +125,10 @@ Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen and 
    - [A9y magic link](antigravity://settings/editor.defaultFormatter)
    - [Cursor magic link](cursor://settings/editor.defaultFormatter)
    - [VS Code magic link](vscode://settings/editor.defaultFormatter)
+
+Examples:
+
+- https://any.digital/tricks/njk-liquid/#auto-formatting-in-vs-code~editors for `.njk`/`.liquid`
 
 ### Open Markdown Previews to the Side
 
