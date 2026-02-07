@@ -3,7 +3,10 @@ title: npm Tricks
 site: tricks
 type: tricks
 canonical: https://any.digital/tricks/npm/
-revised: 2026-01-18
+includes:
+  - path: https://raw.githubusercontent.com/anydigital/eleventy-bricks/refs/heads/main/README.md
+    # path: ../node_modules/@anydigital/eleventy-bricks/README.md
+    section: npm
 ---
 
 ### npm link auto-completion with @namespaces support

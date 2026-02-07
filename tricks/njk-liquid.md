@@ -2,8 +2,11 @@
 title: Nunjucks & Liquid Tricks <sub>for Eleventy, Shopify, Jekyll etc.</sub>
 site: tricks
 type: tricks
-revised: 2026-02-04
 canonical: https://any.digital/tricks/njk-liquid/
+includes:
+  - path: https://raw.githubusercontent.com/anydigital/bricks/refs/heads/main/README.md
+    # path: ../node_modules/@anydigital/bricks/README.md
+    section: njk-liquid
 ---
 
 ## First Things First
