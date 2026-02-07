@@ -13,7 +13,7 @@ pkill -f tailwind
 pkill -f .bin/serve
 ```
 
-## Awesome 11ty List
+## Awesome 11ty <small>List</small>
 
 - https://11tybundle.dev/
 - https://github.com/anydigital/sveleven starter
