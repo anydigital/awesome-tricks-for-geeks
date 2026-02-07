@@ -13,6 +13,11 @@ includes:
 
 <!--section:11ty-basics-->
 
+### Built-in Filters
+
+- https://mozilla.github.io/nunjucks/templating.html#builtin-filters
+- https://shopify.github.io/liquid/#filters-section
+
 ### Syntax highlighting <small>in [VS Code~editors](/tricks/antigravity/)</small>
 
 #### `.njk` {#njk-vscode}
