@@ -4,21 +4,19 @@ site: tricks
 type: tricks
 canonical: https://any.digital/tricks/njk-liquid/
 includes:
-  - path: https://raw.githubusercontent.com/anydigital/bricks/refs/heads/main/README.md
+  - #
+    path: https://raw.githubusercontent.com/anydigital/bricks/refs/heads/main/README.md
     # path: ../node_modules/@anydigital/bricks/README.md
     section: njk-liquid
+  - text: "Featured in https://11tybundle.dev/categories/nunjucks-macros/"
 ---
 
 ## First Things First
 
-<!--section:11ty-basics-->
-
-### Built-in filters
-
-- https://mozilla.github.io/nunjucks/templating.html#builtin-filters
-- https://shopify.github.io/liquid/#filters-section
-- https://www.11ty.dev/docs/filters/#eleventy-provided-filters
-- https://www.11ty.dev/docs/plugins/render/#render-content-filter
+|                  | `.njk`                                                             | `.liquid`                                             |
+| ---------------- | ------------------------------------------------------------------ | ----------------------------------------------------- |
+| Docs             | https://mozilla.github.io/nunjucks/templating.html                 | https://shopify.github.io/liquid/basics/introduction/ |
+| Built-in Filters | https://mozilla.github.io/nunjucks/templating.html#builtin-filters | https://shopify.github.io/liquid/#filters-section     |
 
 ### Syntax highlighting <sub>in [VS Code~editors](/tricks/antigravity/)</sub>
 
@@ -72,7 +70,7 @@ ln -s ./node_modules/@anydigital/bricks/.prettierrc.json
 
 #### `.liquid`
 
-2. 🧩 Install https://shopify.dev/docs/storefronts/themes/tools/shopify-liquid-vscode (same extension for both highlighting and formatting)
+2. 🧩 Install https://shopify.dev/docs/storefronts/themes/tools/shopify-liquid-vscode (2-in-1 extension for highlighting + formatting)
 
 ##### How to prevent unclosed html tags from breaking auto-formatting?
 
@@ -95,22 +93,9 @@ But there is a trick with "fake" `{% if true %}` condition:
 
 This "fake conditional" trick is a clever way to bypass the Abstract Syntax Tree (AST) parsers used by formatters like Prettier. Since the formatter sees the tag wrapped in a logic block, it often treats the HTML as a string or a partial fragment rather than a structural error.
 
-<!--section:other-->
-
 ---
 
-## Tricks
-
-### Create array
-
-```liquid {data-caption=.liquid}
-{% capture _new_array %}
-1
-2
-3
-{% endcapture %}
-{% assign _new_array = _new_array | strip | split: '\n' %}
-```
+## Nunjucks-Specific <small>Tricks</small>
 
 ### Sort array by attribute
 
@@ -127,26 +112,28 @@ But you can actually do this trick:
 {% endfor %}
 ```
 
-### Include and render `.md` file w/o its Front Matter <small>(11ty-only)</small>
-
-```jinja2 {data-caption=.njk}
-{# first, get the raw content using `html` as plain-text engine #}
-{% set _eval = "{% renderFile './YOUR_FILE.md', {}, 'html' %}" %}
-{% set _raw_md = _eval | renderContent('njk') %}
-
-{# then, remove the front matter using regex, and render using `md` #}
-{{ _raw_md | replace(r/^---[\s\S]*?---/, '') | renderContent('md') | safe }}
-```
-
 ---
 
-## `PS:` Beware: False Positives in `.liquid`
+## Liquid-Specific <small>Tricks</small>
+
+### Create array
+
+```liquid {data-caption=.liquid}
+{% capture _new_array %}
+1
+2
+3
+{% endcapture %}
+{% assign _new_array = _new_array | strip | split: '\n' %}
+```
+
+### Beware: False Positives <small>in `.liquid`</small>
 
 In Liquid templating, a "false positive" usually occurs when a value you expect to be **falsy** (like an empty string or zero) is actually treated as **truthy** by the Liquid engine.
 
 Unlike languages like JavaScript or Python, Liquid has very specific rules for truthiness.
 
-### The "Everything is Truthy" Rule
+#### The "Everything is Truthy" Rule
 
 In Liquid, **only** `false` and `nil` (null) are falsy. Every other value evaluates to `true` in a conditional statement.
 
@@ -158,7 +145,7 @@ Common Pitfalls:
 | `0` (Zero)          | **Truthy**    | Numbers are always truthy, regardless of value. |
 | `[]` (Empty Array)  | **Truthy**    | An empty collection is not `nil`.               |
 
-### How to Avoid False Positives
+#### How to Avoid False Positives
 
 To prevent these values from triggering your `if` statements, you should check for size or specific content rather than just the variable itself.
 
@@ -182,7 +169,7 @@ The Right Way vs. The Wrong Way:
 {% if my_array.size > 0 %} This ensures the list isn't empty. {% endif %}
 ```
 
-### The `blank` and `empty` Keywords
+#### The `blank` and `empty` Keywords
 
 Liquid provides special keywords to handle these cases gracefully:
 
@@ -193,5 +180,17 @@ Liquid provides special keywords to handle these cases gracefully:
 
 ---
 
-- Featured in https://11tybundle.dev/categories/nunjucks-macros/
-- See also https://any.digital/tricks/11ty/
+## 11ty-Specific <small>Tricks</small>
+
+<!--section:11ty-->
+
+### Include and render `.md` file w/o its Front Matter
+
+```jinja2 {data-caption=.njk}
+{# first, get the raw content using `html` as plain-text engine #}
+{% set _eval = "{% renderFile './YOUR_FILE.md', {}, 'html' %}" %}
+{% set _raw_md = _eval | renderContent('njk') %}
+
+{# then, remove the front matter using regex, and render using `md` #}
+{{ _raw_md | replace(r/^---[\s\S]*?---/, '') | renderContent('md') | safe }}
+```
