@@ -13,6 +13,6 @@ includes:
   - #
     path: https://raw.githubusercontent.com/anydigital/eleventy-bricks/refs/heads/main/README.md
     # path: ../node_modules/@anydigital/eleventy-bricks/README.md
-    section: filters-h3
+    section: filters-h2
   - text: "Featured in https://11tybundle.dev/categories/nunjucks-macros/"
 ---
