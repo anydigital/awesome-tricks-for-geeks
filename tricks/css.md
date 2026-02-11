@@ -6,7 +6,7 @@ canonical: https://any.digital/tricks/css/
 includes:
   - path: https://raw.githubusercontent.com/anydigital/bricks/refs/heads/main/README.md
     # path: ../node_modules/@anydigital/bricks/README.md
-    section: css
+    section: css-h2
   - path: https://raw.githubusercontent.com/anydigital/breakout-css/refs/heads/main/README.md
     # path: ../node_modules/@anydigital/breakout-css/README.md
     section: css
