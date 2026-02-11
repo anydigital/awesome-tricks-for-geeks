@@ -15,4 +15,5 @@ includes:
     # path: ../node_modules/@anydigital/eleventy-bricks/README.md
     section: filters-h2
   - text: "Featured in https://11tybundle.dev/categories/nunjucks-macros/"
+revised: 2026-02-11
 ---
