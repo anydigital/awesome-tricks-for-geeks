@@ -16,7 +16,7 @@ includes:
     section: filters-h2
   - text: |-
       Featured in:
-      - https://11tybundle.dev/categories/nunjucks-macros/
       - https://11tybundle.dev/blog/11ty-bundle-83/
+      - https://11tybundle.dev/categories/nunjucks-macros/
 revised: 2026-02-11
 ---
