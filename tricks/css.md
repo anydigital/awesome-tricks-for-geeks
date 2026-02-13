@@ -19,3 +19,5 @@ includes:
 - https://github.com/anydigital/breakout-css 🆕
 - https://github.com/anydigital/float-label-css
 - https://buildexcellentwebsit.es/
+- https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/
+- 
