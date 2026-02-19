@@ -7,6 +7,8 @@ canonical: https://any.digital/tricks/ruby/
 
 ### Install and build Slate Docs locally on macOS w/o breaking system's Ruby
 
+Assuming you already have Homebrew and Node installed:
+
 ```sh
 brew install rbenv
 # First, list available Ruby versions:
