@@ -13,7 +13,6 @@ brew install rbenv
 rbenv install -l
 # Then install:
 rbenv install 3.2.10
-gem update --system
 gem install bundler
 bundle install
 bundle exec middleman build
