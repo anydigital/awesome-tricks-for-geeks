@@ -7,7 +7,7 @@ canonical: https://any.digital/tricks/ruby/
 
 ## Install Ruby projects locally on macOS w/o breaking system's Ruby
 
-### `rbenv`
+### Per-folder `ruby` via `rbenv`
 
 Assuming you already have Homebrew:
 
