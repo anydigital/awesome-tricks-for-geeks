@@ -15,10 +15,10 @@ Assuming you already have Homebrew:
 brew install rbenv
 # First, list available Ruby versions:
 rbenv install -l
-# Then install:
+# Then install a desired version:
 rbenv install 3.2.10
-# Optionally:
-gem install bundler
+# Finally, set for current project/folder:
+rbenv local 3.2.10
 ```
 
 ### GitHub Pages' Jekyll locally
