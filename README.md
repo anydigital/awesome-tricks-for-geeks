@@ -30,3 +30,6 @@ A curated list of awesome Bootstrap 4 resources:
 
 ## Docs
 - [Awesome Bootstrap 4](https://github.com/highweb/awesome-bootstrap) - A curated list of awesome Bootstrap 4 resources.
+
+## CheatSheet
+- [Bootstrap CheatSheet](https://github.com/themeselection/bootstrap5-cheatsheet) - It is an interactive list of Bootstrap 5 classes, variables, and mixins.
