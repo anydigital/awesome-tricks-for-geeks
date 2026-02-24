@@ -7,7 +7,7 @@ canonical: https://any.digital/tricks/ruby/
 
 ## Install Ruby projects locally on macOS w/o breaking system's Ruby
 
-### Per-folder `ruby` via `rbenv`
+### Install `rbenv`
 
 Assuming you already have Homebrew:
 
@@ -18,8 +18,14 @@ brew install rbenv
 rbenv install -l
 rbenv install 3.2.10
 
-# Finally, set it for current project/folder:
+# Set it for current project/folder:
 rbenv local 3.2.10
+```
+
+Finally, add it to your shell's configuration file so it executes automatically:
+
+``` {data-caption=~/.zshrc}
+eval "$(rbenv init -)"
 ```
 
 ### GitHub Pages' Jekyll locally
