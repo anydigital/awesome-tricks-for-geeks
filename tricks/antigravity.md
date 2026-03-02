@@ -116,7 +116,7 @@ Done! Now you can quickly toggle Zen Mode with `Shift + Esc` w/o fullscreen and 
 | `Shift + Opt + I`       | activate multi-line cursor |
 | `Shift + Cmd + V`       | open Markdown Preview      |
 | <kbd>Shift + *</kbd>    | make selected text italic  |
-| <kbd>Shift + *</kbd>&nbps;+&nbps;<kbd>Shift + *</kbd> | make selected text bold    |
+| <kbd>Shift + *</kbd>&nbsp;+&nbsp;<kbd>Shift + *</kbd> | make selected text bold    |
 
 ### Auto-formatting with Prettier
 
