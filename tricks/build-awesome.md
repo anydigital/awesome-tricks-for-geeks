@@ -56,7 +56,7 @@ includes:
       - https://any.digital/tricks/njk-liquid/ templating
       - https://eleventy-explorer.netlify.app/ for more
       - https://any.digital/insights/ssg/
-  - path: https://raw.githubusercontent.com/anydigital/awesome-build-awesome/refs/heads/master/README.md
+  - path: https://raw.githubusercontent.com/anydigital/eleventy-build-awesome/refs/heads/master/README.md
     section: content
   - text: |-
       <small>This page follows a similar structure to https://www.11ty.dev/docs/projects/</small>
@@ -65,6 +65,6 @@ includes:
       - https://11tybundle.dev/blog/11ty-bundle-83/
       - https://11tybundle.dev/categories/nunjucks-macros/
       - https://11tybundle.dev/categories/getting-started/
-      - https://github.com/anydigital/awesome-build-awesome
+      - https://github.com/anydigital/eleventy-build-awesome
 revised: 2026-02-28
 ---
