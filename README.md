@@ -1,6 +1,6 @@
 Welcome to:
 
-# <sub>![](https://awesome.re/badge.svg)</sub><br> Tricks for Geeks <br><sup><sup>open-source wiki by *Any*digital</sup></sup>
+# ![](https://awesome.re/badge.svg) Blades 🥷 <br><sub>open-source wiki by *Any*digital <br><sup>(formerly "Tricks for Geeks")</sup></sub>
 
 - content: [`./tricks/*.md`](https://github.com/anydigital/awesome-tricks-for-geeks/tree/main/tricks)
 - deployed to: [any.digital/tricks/](https://any.digital/tricks/)
