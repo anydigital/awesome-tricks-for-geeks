@@ -29,7 +29,7 @@ git restore PATH_TO_FILE
 ### Discard all changes inside a folder
 
 ```sh
-git restore "FOLDER/*"
+git restore "FOLDER/*" # commas matter!
 git clean -fd FOLDER/
 ```
 
