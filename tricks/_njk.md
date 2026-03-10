@@ -39,10 +39,10 @@ npm i -D prettier-plugin-jinja-template
 }
 ```
 
-`PRO TIP:` If you already use https://github.com/anydigital/bricks, it’s even easier. You can simply:
+`PRO TIP:` If you already use https://github.com/anydigital/blades, it’s even easier. You can simply:
 
 ```sh
-ln -s ./node_modules/@anydigital/bricks/.prettierrc.json
+ln -s ./node_modules/@anydigital/blades/.prettierrc.json
 ```
 
 ### Sort array by attribute

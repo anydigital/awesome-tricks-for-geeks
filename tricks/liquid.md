@@ -6,8 +6,8 @@ type: tricks
 canonical: https://any.digital/tricks/liquid/
 includes:
   - #
-    path: https://raw.githubusercontent.com/anydigital/bricks/refs/heads/main/README.md
-    # path: ../node_modules/@anydigital/bricks/README.md
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
+    # path: ../node_modules/@anydigital/blades/README.md
     section: njk-liquid-h2
   - text: |-
       Featured in:

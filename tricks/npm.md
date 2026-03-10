@@ -4,8 +4,8 @@ site: tricks
 type: tricks
 canonical: https://any.digital/tricks/npm/
 includes:
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-bricks/refs/heads/main/README.md
-    # path: ../node_modules/@anydigital/eleventy-bricks/README.md
+  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
+    # path: ../node_modules/@anydigital/eleventy-blades/README.md
     section: npm
 ---
 

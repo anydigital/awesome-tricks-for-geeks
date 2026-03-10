@@ -24,27 +24,27 @@ includes:
       pkill -f .bin/serve
       ```
   - #
-    path: https://raw.githubusercontent.com/anydigital/eleventy-bricks/refs/heads/main/README.md
-    # path: ../node_modules/@anydigital/eleventy-bricks/README.md
+    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
+    # path: ../node_modules/@anydigital/eleventy-blades/README.md
     section: npm-h3
   - text: "## Configuration <small>Tricks</small>"
   - #
-    path: https://raw.githubusercontent.com/anydigital/eleventy-bricks/refs/heads/main/README.md
-    # path: ../node_modules/@anydigital/eleventy-bricks/README.md
+    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
+    # path: ../node_modules/@anydigital/eleventy-blades/README.md
     section: config-h3
   - text: "## Data & Processing <small>Tricks</small>"
   - #
-    path: https://raw.githubusercontent.com/anydigital/eleventy-bricks/refs/heads/main/README.md
-    # path: ../node_modules/@anydigital/eleventy-bricks/README.md
+    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
+    # path: ../node_modules/@anydigital/eleventy-blades/README.md
     section: data&processors-h3
   - path: tricks/_njk.md
   - #
-    path: https://raw.githubusercontent.com/anydigital/bricks/refs/heads/main/README.md
-    # path: ../node_modules/@anydigital/bricks/README.md
+    path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/README.md
+    # path: ../node_modules/@anydigital/blades/README.md
     section: njk-liquid-h2
   - #
-    path: https://raw.githubusercontent.com/anydigital/eleventy-bricks/refs/heads/main/README.md
-    # path: ../node_modules/@anydigital/eleventy-bricks/README.md
+    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/README.md
+    # path: ../node_modules/@anydigital/eleventy-blades/README.md
     section: filters-h2
   - text: |-
       ## ![](https://awesome.re/badge.svg)<br> [Awesome 11ty / Build Awesome](https://github.com/anydigital/awesome-11ty-build-awesome) {#awesome}
