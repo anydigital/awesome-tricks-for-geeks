@@ -29,6 +29,10 @@ git restore PATH_TO_FILE
 ### Discard all changes inside a folder
 
 ```sh
+git checkout HEAD -- FOLDER/
+
+# or separately for tracked and untracked files:
+
 git restore "FOLDER/*" # quotes matter!
 git clean -fd FOLDER/
 ```
