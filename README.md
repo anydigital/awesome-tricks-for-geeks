@@ -13,6 +13,7 @@ formerly "Tricks for Geeks" wiki
 
 <!--section:index-->
 
+- https://blades.ninja/antigravity/ tricks
 - https://blades.ninja/css/float-label/
 - https://buildexcellentwebsit.es/
 - https://blog.jim-nielsen.com/2025/lots-of-little-html-pages/

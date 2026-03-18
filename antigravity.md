@@ -1,8 +1,6 @@
 ---
 title: "Antigravity Tricks <sub>for VS Code~editors (Cursor, Windsurf etc.)</sub>"
-site: tricks
-type: tricks
-canonical: https://any.digital/tricks/antigravity/
+canonical: https://blades.ninja/antigravity/
 revised: 2026-02-04
 ---
 
