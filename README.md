@@ -2,7 +2,7 @@
 <!--section:index-->
 <hgroup><small>Backlog of</small>
 
-## Awesome blades <sup class="faded">[<i>↗</i>](https://github.com/anydigital/awesome-blades)</sup>
+## Awesome blades <small>[<i>↗</i>](https://github.com/anydigital/awesome-blades)</small>
 
 formerly "Tricks for Geeks" wiki
 
