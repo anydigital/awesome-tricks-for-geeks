@@ -1,5 +1,6 @@
+<img src="https://awesome.re/badge.svg">
 <!--section:index-->
-<hgroup><small><img src="https://awesome.re/badge.svg"></small>
+<hgroup><small>Backlog</small>
 
 ## Awesome blades <sup class="faded">[<i>↗</i>](https://github.com/anydigital/awesome-blades)</sup>
 
