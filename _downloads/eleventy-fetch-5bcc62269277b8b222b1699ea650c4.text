@@ -1,0 +1,13 @@
+/* <!--section:docs-->
+Overrides for https://github.com/picocss/pico/blob/main/scss/utilities/_reduce-motion.scss
+```css */
+@utility unreduce-animation-* {
+  @media (prefers-reduced-motion: reduce) {
+    &:not([aria-busy="true"]) {
+      animation-duration: --value([ *]) !important;
+      animation-delay: 0 !important;
+      animation-iteration-count: infinite !important;
+    }
+  }
+}
+/*``` <!--section--> */

@@ -1,0 +1,51 @@
+{# <!--section:code-->```jinja2 #}
+<!doctype html>
+<html lang="{{ site.lang | d('en') }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <link rel="icon" href="{{ site.favicon | d('/favicon.ico') }}" />
+    <title>
+      {{- title | string | striptags ~ ' | ' if title -}}
+      {{- site.title -}}
+    </title>
+    <meta name="description" content="{{ description | d(site.description) }}" />
+
+    {%- for href in site.styles %}
+      <link rel="stylesheet" href="{{ href }}" />
+    {%- endfor %}
+    {# prettier-ignore-start #}<style>
+      {{ site.inline_styles | d([]) | join('\n') }}
+    </style>{# prettier-ignore-end #}
+
+    {%- for src in site.scripts %}
+      <script src="{{ src }}" defer></script>
+    {%- endfor %}
+    {# prettier-ignore-start #}<script type="module">
+      {{ site.inline_scripts | d([]) | join('\n') }}
+    </script>{# prettier-ignore-end #}
+
+    {{ content_for_header }}
+    {% include 'blades/gtm.njk' %}
+  </head>
+
+  <body>
+    {% set for_body = true %}{% include 'blades/gtm.njk' %}
+    {% block body %}
+    {% endblock %}
+  </body>
+</html>
+{#```
+- `title | string` avoids error with `| striptags` when you pass a pure number.
+
+<!--section:docs-->
+Usage in Nunjucks layout:
+
+```jinja2
+{% extends 'blades/html.njk' %}
+
+{% block body %}...{% endblock %}
+```
+
+Living example: https://github.com/anydigital/build-awesome-starter/blob/main/_includes/default.njk
+<!--section--> #}

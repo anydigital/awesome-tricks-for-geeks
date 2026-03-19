@@ -1,0 +1,26 @@
+/* <!--section:docs-->
+Extends https://github.com/picocss/pico/blob/main/scss/layout/_document.scss
+
+Prevent horizontal overflow and scrolling, modern way:
+```css */
+html {
+  overflow-x: clip;
+}
+/*```
+
+## Landmarks
+Extends https://github.com/picocss/pico/blob/main/scss/layout/_landmarks.scss
+
+1. Ensure `body` takes at least the full height of the viewport (using dynamic viewport height for better mobile support).
+2. Make the `body` a flex container with column layout, and `main` to automatically fill available space. This is useful for creating sticky footers and full-height layouts.
+```css */
+body {
+  min-height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+  > main {
+    flex-grow: 1;
+  }
+}
+/*``` <!--section--> */

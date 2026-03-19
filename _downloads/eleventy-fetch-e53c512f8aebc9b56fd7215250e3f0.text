@@ -1,0 +1,49 @@
+{% comment %}<!--section:code-->```liquid{% endcomment %}
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    <link rel="icon" href="{{ site.favicon | default: '/favicon.ico' }}">
+    <title>
+      {%- if title %}{{ title | strip_html | append: ' | ' }}{% endif -%}
+      {{- site.title -}}
+    </title>
+    <meta name="description" content="{{ description | default: site.description }}">
+
+    {%- for href in site.styles %}
+      <link rel="stylesheet" href="{{ href | relative_url }}">
+    {%- endfor %}
+    <style>
+      {{ site.inline_styles | join: '\n' }}
+    </style>
+
+    {%- for src in site.scripts %}
+      <script src="{{ src }}" defer></script>
+    {%- endfor %}
+    <script type="module">
+      {{ site.inline_scripts | join: '\n' }}
+    </script>
+
+    {{ content_for_header }}
+    {% include blades/gtm.liquid %}
+  </head>
+
+  <body>
+    {% include blades/gtm.liquid for_body=true %}
+
+    {{ body }}
+  </body>
+</html>
+{% comment %}```
+<!--section:docs-->
+Usage in Liquid layout:
+
+```liquid
+{% capture body %}...{% endcapture %}
+
+{% include blades/html.liquid %}
+```
+
+Living example: https://github.com/anydigital/bladeswitch/blob/main/_includes/default.liquid
+<!--section-->{% endcomment %}
