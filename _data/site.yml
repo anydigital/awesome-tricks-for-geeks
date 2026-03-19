@@ -3,10 +3,10 @@ title: Blades
 gtm_id: GTM-WNHMRQZ
 brand: <big><a href="/" class="dark-auto"><i>🥷&nbsp;</i>Blades</a></big>
 header_links:
-  - url: https://github.com/anydigital/blades
-    title: <i class="fa-brands fa-github"></i>
   - url: https://github.com/anydigital/awesome-blades
     title: <i>🕶️</i>
+  - url: https://github.com/anydigital/blades
+    title: <i class="fa-brands fa-github"></i>
 footer_links:
   - url: https://github.com/anydigital/blades
     title: |-
