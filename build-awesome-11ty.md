@@ -46,23 +46,25 @@ includes:
   - path: _njk.md
   - text: |-
       ## Filters
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/if.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/merge.js
-    section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/attr_set.js
-    section: docs,code
   - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/attr_concat.js
     section: docs,code
   - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/attr_includes.js
     section: docs,code
+  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/attr_set.js
+    section: docs,code
   - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/fetch.js
     section: docs,code
-  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/section.js
+  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/if.js
+    section: docs,code
+  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/merge.js
     section: docs,code
   - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/remove_tag.js
     section: docs,code
+  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/section.js
+    section: docs,code
   - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/strip_tag.js
+    section: docs,code
+  - path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/filters/unindent.js
     section: docs,code
   - text: |-
       ## ![](https://awesome.re/badge.svg)&nbsp; 11ty / Build Awesome <small>[<i>↗</i>](https://github.com/anydigital/awesome-11ty-build-awesome)</small> {#awesome}
