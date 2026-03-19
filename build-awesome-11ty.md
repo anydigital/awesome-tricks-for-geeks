@@ -36,6 +36,10 @@ includes:
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/siteData.js
     section: docs,code
   - #
+    # path: ../node_modules/@anydigital/eleventy-blades/src/processors/markdown.js
+    path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/processors/markdown.js
+    section: docs,code
+  - #
     # path: ../node_modules/@anydigital/eleventy-blades/src/processors/autoLinkFavicons.js
     path: https://raw.githubusercontent.com/anydigital/eleventy-blades/refs/heads/main/src/processors/autoLinkFavicons.js
     section: docs,code
