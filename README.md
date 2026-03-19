@@ -6,7 +6,7 @@
 
 <p></p></hgroup>
 
-Backlog of awesome tricks & ideas for Blades.
+Backlog of awesome tricks & ideas for Blades:
 <!--section:gh-only-->
 
 - https://blades.ninja/ all-in
