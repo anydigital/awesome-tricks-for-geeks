@@ -3,5 +3,6 @@
 
 /css/typography/    /css/ 301
 /css/code/          /css/#code 301
+/css/layout/        /css/#layout 301
 /css/table/         /css/responsive-table/ 301
 /table/             /css/responsive-table/ 301

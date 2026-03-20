@@ -1,8 +1,6 @@
 ---
-title: Breakout <small>blades</small>
+title: <a href="/css/">CSS</a> Breakout <small>blades</small>
 includes:
-  - #
-    # path: ../node_modules/@anydigital/blades/src/breakout.css
+  - section: docs,code
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/breakout.css
-    section: docs,code
 ---
