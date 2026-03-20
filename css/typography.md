@@ -1,8 +1,8 @@
 ---
 title: Typography <small>blades</small>
 includes:
-  - text: "### [<big>🥷 Table →</big>](/css/table/){role=button .outline}"
-  - text: "### [<big>🥷 Code →</big>](/css/code/){role=button .outline}"
+  - text: "### [🥷 Table →](/css/table/){role=button .outline}"
+  - text: "### [🥷 Code →](/css/code/){role=button .outline}"
   - #
     # path: ../node_modules/@anydigital/blades/src/_typography.css
     path: https://raw.githubusercontent.com/anydigital/blades/refs/heads/main/src/_typography.css

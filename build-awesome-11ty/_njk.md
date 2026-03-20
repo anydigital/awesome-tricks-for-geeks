@@ -3,7 +3,7 @@
 - https://mozilla.github.io/nunjucks/templating.html
 - https://mozilla.github.io/nunjucks/templating.html#builtin-filters
 
-### [<big>🥷 Filters →</big>](/build-awesome-11ty/filters/){role=button .outline}
+### [🥷 Filters →](/build-awesome-11ty/filters/){role=button .outline}
 
 ### Syntax highlighting <sub>in [VS Code~editors](/tricks/antigravity/)</sub> {#njk-vscode}
 
